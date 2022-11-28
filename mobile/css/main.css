@@ -1,0 +1,90 @@
+
+
+/* CSS Document */
+.visual {position: relative; width: 100%;}
+.visual .gallery{width:100%; position: relative; overflow: hidden; cursor: pointer}
+.visual .gallery ul {position:relative; left:0; top:0; width:300%; overflow: hidden}
+.visual .gallery ul li {float: left; width:100%; position: relative;}
+.visual .gallery ul li img {}
+.visual .gallery .slogan {color: #fff; display: flex; flex-direction: column; position: absolute; top: 31.6%; left: 6.25%; }
+.visual .gallery .slogan strong {font-size: 1.97rem; font-weight: 700; line-height: 3.3rem; letter-spacing: -0.014rem;}
+.visual .gallery .slogan span {font-size: 1.5rem; font-weight: 300;  padding-top: .4875rem;}
+
+.gallery .pageNum{width:50px; position: absolute; right: 9%; bottom: 5%; margin-left:-25px;  overflow: hidden }
+.gallery .pageNum span{display:block; width:10px; height:10px; background: #fff;
+ border-radius: 5px; float: left; margin-right:5px; opacity:1}
+
+
+.visual .dot {}
+.visual .dot span {}
+
+
+#content {width: 100%;}
+#content .sustain {width: 100%; background-color: #f5f5f5;}
+#content .sustain>p {padding: 2.5rem 0; text-align: center; font-size: 1.2rem; font-weight: 700;}
+#content .sustain ul {margin: 0 3.125%; display: flex; justify-content: space-around; }
+#content .sustain ul li {} 
+#content .sustain ul li:nth-child(1),
+#content .sustain ul li:nth-child(2) { margin-right: 3%} 
+#content .sustain ul li img {width: 100%;} 
+#content .sustain ul li h4 {font-family: 'Lato', sans-serif; padding-top: .875rem; font-size: 1rem; font-weight: 700;}
+#content .sustain ul li p { font-size: .6875rem; padding-top: .3125rem; padding-bottom: 1.875rem; font-weight: 500;}
+
+.booooox {overflow: hidden; margin: 0 3.125%;  width: 93.3%;}
+#content .business {}
+#content .business>p {padding: 1.875rem 0; text-align: center; font-size: 1.2rem; font-weight: 700;}
+#content .business .busListBox {width: 100%; position: relative; overflow: hidden;}
+#content .business ul {overflow: hidden; left: 0; top: 0%; position: relative; width: 1000%;}
+#content .business ul li{ overflow: hidden; float: left; width: 100%; } 
+#content .business ul li:nth-child(3){ margin-right: 0;}
+/* #content .business ul li:nth-child(1){ margin-right: 3.125%}  */
+
+
+#content .business ul li a { } 
+#content .business ul li a>div{margin-top: 1.375rem; display: flex; flex-direction: row; display: flex; justify-content: space-around;} 
+#content .business ul li a img {border-radius: 1.875rem;} 
+#content .business ul li a h4 {font-size: 1.15rem; font-weight: 700;}
+#content .business ul li a p {font-size: .72rem;}
+
+/* #content .business ul li {display: none;}
+#content .business ul li:nth-child(1) {display: block;} */
+
+.busListBox .pageNum{width:50px; position: absolute; right: 9%; top: 66%; margin-left:-25px;  overflow: hidden }
+.busListBox .pageNum span{display:block; width:10px; height:10px; background: #fff;
+ border-radius: 5px; float: left; margin-right:5px; opacity:1}
+/* 
+#content .business .busDot {}
+#content .business .busDot span{} */
+
+#content h3 { font-size: 1.7rem; font-weight: 700;}
+#content .media {  margin: 0 3.125%; margin-top: 3.125rem; }
+#content .media h3 {margin-bottom: 1.5625rem;}
+
+#content .mediaBox {overflow-x: scroll;}
+#content .mediaBox::-webkit-scrollbar {display: none;}
+
+#content .media ul {display: flex; flex-direction: row; }
+#content .media ul li{margin-right: 20px; } 
+#content .media ul li a {} 
+#content .media ul li a img {border-radius: 15px;} 
+#content .media ul li a span {font-size: 0.9rem; display: flex; flex-direction: column; margin-top: .8125rem; text-align: center;}
+#content .media .progressbar {width: 100%; position: relative; margin-top: .9375rem;  background: #f4f4f4; height: 5px; border-radius: 10.25rem; }
+#content .media .progressbar span{border-radius: 10.25rem;width: 10%; background: #1179f2; display: block; position: absolute; top: 0;  z-index: 4; height: 100%;}
+
+#content .media .more {}
+
+#content .faq {margin: 0 3.125%; margin-top: 3.125rem; }
+#content .faq h3 {margin-bottom: 1.5625rem;}
+#content .faq ul {display: flex;  flex-direction: column;    }
+#content .faq ul li { padding: 2.3% 0; border-top: .0625rem solid #ddd;}
+#content .faq ul li:last-child{border-bottom:.0625rem solid #ddd;}
+#content .faq ul li p{letter-spacing:-0.045rem; text-align:justify; font-size: 0.9rem;}
+#content .faq ul li p a{position:relative; display:block; padding:1rem 0 1rem 2.85rem; }
+#content .faq ul li p a i {position: absolute; right: 0.5%; font-size: 1.375rem;}
+#content .faq ul li p a::before{content:'Q'; position:absolute; left:0.7142rem; top:.6rem; color:#1179f2; font-size:1.3751rem; font-weight:700;}
+#content .faq ul li p:nth-child(2)::before{content:'A'; position:absolute; left:0.93rem; ; color:#999; font-size:1.3751rem; font-weight:700;}
+#content .faq ul li p:nth-child(2){position:relative; padding:1rem 1rem 1rem 2.85rem; background:#f8f8f8; border-top:.0625rem dotted #eee; display: none;}
+
+
+#content .faq .more {}
+

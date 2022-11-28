@@ -1,0 +1,36 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+#content h3{border-bottom: 2px solid #888; position: relative; letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; padding-bottom: 70px; margin-bottom: 30px;}
+/* #content h3{border: none;} */
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+
+.hrInner {}
+.hrInner ul{overflow: hidden; margin-bottom: 100px; }
+
+.hrInner .worklife ul{ margin-bottom: 250px}
+
+.hrInner ul li{margin-top: 50px; padding-left: 30px; width: 600px;height: 200px; float: left; box-sizing: border-box; }
+.hrInner ul li div{ width: 100px;height: 100px; float: left; margin-right: 50px; background: pink;}
+
+.hrInner ul li dl{overflow: hidden; width: 400px;height: 130px ; margin-top: -5px;}
+.hrInner ul li dl dt{font-size: 1.375em; line-height: 20px; letter-spacing: -0.056em; font-weight: 500; margin-bottom: 20px;}
+.hrInner ul li dl dd{font-size: 1em; color: #666; width: 340px; line-height: 32px; text-align: justify; }
+.hrInner ul li:nth-child(2n) dd{width: 370px; }
+
+
+.hrInner .family ul li:nth-child(1) div{background: url(../images/content1/recruit_icon_01_01.png) no-repeat}
+.hrInner .family ul li:nth-child(2) div{background: url(../images/content1/recruit_icon_01_02.png)no-repeat}
+.hrInner .family ul li:nth-child(3) div{background: url(../images/content1/recruit_icon_01_03.png)no-repeat}
+.hrInner .family ul li:nth-child(4) div{background: url(../images/content1/recruit_icon_01_04.png)no-repeat}
+
+.hrInner .self ul li:nth-child(1) div{background: url(../images/content1/recruit_icon_02_01.png)no-repeat}
+.hrInner .self ul li:nth-child(2) div{background: url(../images/content1/recruit_icon_02_02.png)no-repeat}
+
+.hrInner .health ul li:nth-child(1) div{background: url(../images/content1/recruit_icon_03_01.png)no-repeat}
+.hrInner .health ul li:nth-child(2) div{background: url(../images/content1/recruit_icon_03_02.png)no-repeat}
+
+.hrInner .worklife ul li:nth-child(1) div{background: url(../images/content1/recruit_icon_04_01.png)no-repeat}
+.hrInner .worklife ul li:nth-child(2) div{background: url(../images/content1/recruit_icon_04_02.png)no-repeat}
+.hrInner .worklife ul li:nth-child(3) div{background: url(../images/content1/recruit_icon_04_03.png)no-repeat}

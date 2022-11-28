@@ -1,0 +1,18 @@
+.subNav ul li{width: 50%;}
+
+.sub_faq{margin:0 3.125%;}
+.sub_faq::after{content:''; display: block; clear: both;}
+.sub_faq span{ float:right; position:relative; background:#1877f2;border-radius: .625rem; }
+.sub_faq span .all{ display:flex; position:relative; width: 10rem;  height: 2.625rem; line-height: 2.625rem; color:#fff; padding-left:1rem; box-sizing:border-box; }
+.sub_faq span .all i{color: #fff;}
+
+
+.sub_faq ul{float:left; width: 100%; border-top:.125rem solid #333; margin:1rem 0 0;}
+.sub_faq ul li{border-bottom:.0625rem solid #e5e5e5;}
+.sub_faq ul li p{position:relative; text-align:justify; padding:0 0 0 2.25rem;}
+.sub_faq ul li p::before{content:'Q'; position:absolute; left:1.15rem; top:0.75rem; font-size:1.35rem; font-weight:700; color:#1877f2;}
+.sub_faq ul li p:nth-child(1) > a{display:flex; padding:1rem 2.6rem 1rem 1rem; background-size:.875rem auto;}
+.sub_faq ul li p:nth-child(2){padding:1rem 2.6rem 1rem 3.25rem; border-top:.0625rem dotted #eee; background:#f8f8f8; display: none;}
+.sub_faq ul li p:nth-child(2)::before{content:'A'; color:#999;}
+
+.sub_faq i {font-size: 1.125rem; color: #1877f2; position: absolute; right: .625rem; align-self: center;}

@@ -1,0 +1,194 @@
+@keyframes bottom-up{
+    from{transform:translateY(50px); opacity:0;}
+    to {transform:translateY(0); opacity:1;}}
+@keyframes top-down{
+    from{transform:translateY(-50px); opacity:0;}
+    to {transform:translateY(0); opacity:1;}}
+@keyframes right-left{
+    from{transform:translateX(70px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}}
+@keyframes left-right{
+    from{transform:translateX(-70px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}}
+
+.main h3{opacity: 0;}
+.main.active h3{ animation: bottom-up 0.7s ease-out 1 forwards; }
+#content h2{opacity: 0;}
+#content .titleArea.active h2{ animation: bottom-up 0.7s ease-out 1 forwards;}
+
+#content .subSlogan p{opacity: 0;}
+#content .subSlogan.active p{animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+#content .subSlogan.active p:nth-child(1) {animation-delay: 200ms;}
+
+/* #content section h3 {opacity: 0;}
+#content section.active h3 {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 400ms;} */
+
+#content section { opacity: 0;}
+#content section.active {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 100ms;}
+
+
+/*! sub1_1 */
+#content .missionBox {opacity: 0;}
+#content section.active .missionBox {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+#content .strategy ul{opacity: 0;}
+#content .strategy.active ul{animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+
+
+/*! sub1_2 */
+#content .ceo .ceoImgbox{opacity: 0;}
+#content .ceo .ceoMsgbox{opacity: 0;}
+#content .ceo.active .ceoImgbox {animation: left-right 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+#content .ceo.active .ceoMsgbox {animation: right-left 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+#content .ceo.active .pathSignBox path {
+    fill: none;
+    stroke-width: 1px;
+    animation: write 0.9s ease-in-out forwards;
+    animation-delay: 1000ms;
+}
+#content .ceo.active #sign .path3, 
+#content .ceo.active #sign .path4 {
+    animation-duration: 300ms;
+}
+
+
+#content .ceo.active #sign .path5 {
+    animation-duration: 1000ms;
+}
+
+@keyframes write {
+    to {
+        stroke-dashoffset: 0; 
+    }
+    60%{fill:none}
+    70%{fill: #999; stroke: #999;}
+    100%{fill: #000; stroke: #000;}
+}
+
+
+#content .ceoHistoy div:nth-child(2){opacity: 0;}
+#content .ceoHistoy img{opacity: 0;}
+#content .ceoHistoy.active div:nth-child(2) {animation: left-right 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+#content .ceoHistoy.active img {animation: right-left 0.5s ease-out 1 forwards; animation-delay: 400ms;}
+
+/*! sub1_3 */
+
+#content #yearSlogan2022 .textfix,
+#content #yearSlogan2015 .textfix,
+#content #yearSlogan2010 .textfix,
+#content #yearSlogan2005 .textfix {opacity: 1; position: fixed; top: 800px;}
+#content #yearSlogan2022 .textfix {color: #1179f2}
+#content #yearSlogan2015 .textfix {color: #0cb9c7;}
+#content #yearSlogan2010 .textfix {color: #ff6f40;}
+#content #yearSlogan2005 .textfix {color: #000c13;}
+
+#content section.yearBox {opacity: 1;}
+#content section.yearBox.active {animation: none;}
+#content section .details dt {opacity: 0;}
+#content section .details dd {opacity: 0;}
+#content section .detailsImages {opacity: 0;}
+
+#content section.active .details dt {animation: bottom-up 0.5s ease-out 1 forwards; }
+#content section.active .details dd:nth-child(odd) {animation: left-right 0.5s ease-out 1 forwards; }
+#content section.active .details dd:nth-child(even) {animation: right-left 0.5s ease-out 1 forwards; }
+#content section.active .detailsImages {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 100ms;}
+
+/* 
+#content section .yearsBigBox div div:nth-child(2) {opacity: 0;}
+#content section.active .yearsBigBox div div:nth-child(2n) {animation: right-left 0.5s ease-out 1 forwards;}
+#content section .yearsBigBox dt {opacity: 0;}
+#content section.active .yearsBigBox dt {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 800ms;}
+#content section .yearsBigBox dd {opacity: 0;}
+#content section.active .yearsBigBox dd:nth-child(odd){animation: right-left 0.5s ease-out 1 forwards; animation-delay: 800ms;}
+#content section.active .yearsBigBox dd:nth-child(even){animation: left-right 0.5s ease-out 1 forwards; animation-delay: 800ms;} */
+
+/*! sub1_4 */
+#content section.network {opacity: 1;}
+#content section.active.network {animation: none;}
+#content section .mapList {opacity: 0;}
+#content section.active .mapList {animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+
+
+
+/*& sub2 common */
+#content section .businessPart div:nth-child(1) div:nth-child(1),
+#content section .businessPart div:nth-child(2) div:nth-child(2),
+#content section .businessPart div:nth-child(3) div:nth-child(1){opacity: 0;}
+#content section .businessPart div:nth-child(1) div:nth-child(2),
+#content section .businessPart div:nth-child(2) div:nth-child(1),
+#content section .businessPart div:nth-child(3) div:nth-child(2){opacity: 0;}
+#content section.active .businessPart div:nth-child(1) div:nth-child(1),
+#content section.active .businessPart div:nth-child(2) div:nth-child(2),
+#content section.active .businessPart div:nth-child(3) div:nth-child(1){animation: left-right 0.5s ease-out 1 forwards; animation-delay: 1700ms;}
+#content section.active .businessPart div:nth-child(1) div:nth-child(2),
+#content section.active .businessPart div:nth-child(2) div:nth-child(1),
+#content section.active .businessPart div:nth-child(3) div:nth-child(2){animation: right-left 0.5s ease-out 1 forwards; animation-delay: 1700ms;}
+
+#content section.overview ul li{opacity: 0;}
+#content section.overview.active ul li{animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 700ms;}
+#content section.overview.active ul li:nth-child(2) {animation-delay: 1000ms;}
+#content section.overview.active ul li:nth-child(3) {animation-delay: 1300ms;}
+
+/*! sub2_1 */
+#content section.chp .processPath {opacity: 0; }
+
+#content section.chp.active .processPath {animation-delay: 900ms; stroke-dasharray: 2050; stroke-dashoffset: 1550;  animation: path 2s ease-out}
+#content section.chp.active .chpprocessimg img{animation: afterpath 2s ease-out 1 forwards;}
+#content section.chp .chpprocessimg img {opacity: 0;}
+@keyframes path {
+    1%{opacity: 1; }
+    to{ stroke-dashoffset: 0; opacity: 0; }
+    54%{opacity: 1;}
+    66%{opacity: 0.5;}
+    
+}
+@keyframes afterpath {
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#content section .safetyDiagram01>ul>li{opacity: 0;}
+#content section.active .safetyDiagram01>ul>li:nth-child(1) {animation: top-down 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+#content section.active .safetyDiagram01>ul>li:nth-child(2) {animation: left-right 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+#content section.active .safetyDiagram01>ul>li:nth-child(3) {animation: right-left 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+
+#content section .saftyCert>div{opacity: 0;}
+#content section.active .saftyCert>div:nth-child(1) {animation: left-right 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+#content section.active .saftyCert>div:nth-child(2) {animation: right-left 0.5s ease-out 1 forwards; animation-delay: 300ms;}
+
+/*! sub2_2 */
+
+#content section .complianceImgbox ul>li {opacity: 0;}
+
+#content section.active .complianceImgbox ul>li:nth-child(1) {animation:bottom-up 0.5s ease-out 1 forwards; animation-delay: 200ms;}
+#content section.active .complianceImgbox ul>li:nth-child(2) {animation:bottom-up 0.5s ease-out 1 forwards; animation-delay: 600ms;}
+
+/*! sub2_3 */
+/*! sub3_1 */
+/*! sub3_2 */
+/*! sub3_3 */
+#content section.csr {opacity: 1;}
+#content section.active.csr {animation: none;}
+
+#content section.csr p{opacity: 0;}
+#content section.csr.active p{animation: bottom-up 0.5s ease-out 1 forwards; animation-delay: 200ms;}
+
+#content section.csr .content ul li img,
+#content section.csr .content ul li dl {opacity: 0;}
+
+#content section.csr.active  .content ul li:nth-of-type(odd) img,
+#content section.csr.active  .content ul li:nth-of-type(2n) dl{animation: left-right 0.5s ease-out 1 forwards; animation-delay: 600ms;}
+#content section.csr.active  .content ul li:nth-of-type(odd) dl,
+#content section.csr.active  .content ul li:nth-of-type(2n) img{animation: right-left 0.5s ease-out 1 forwards; animation-delay: 600ms;}
+
+
+
+/*! sub4_1 */
+/*! sub4_2 */
+/*! sub5_1 */
+#content section>ul>li{opacity: 0;}
+#content section.active>ul>li {animation:bottom-up 0.5s ease-out 1 forwards; animation-delay: 500ms;}
+/*! sub5_2 */
+/*! sub6_1 */
+/*! sub6_2 */
+
+

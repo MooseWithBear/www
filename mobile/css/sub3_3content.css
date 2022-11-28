@@ -1,0 +1,68 @@
+#content{}
+#content h3{text-shadow: none;}
+#content img{width: 100%; border-radius: .9375rem;  }
+#content p{line-height: 1.875rem; font-size: 1rem; text-align: justify;}
+#content dt { font-size: 1.25rem; font-weight: 400; text-align: center; letter-spacing: -0.03rem; padding: 1rem 0 1rem; }
+#content dd {font-size: .875rem;line-height: 1.875rem;margin: 1%; text-align: justify; padding: 0 3%; padding-bottom: 1rem;}
+section {margin: 0 3.125%;}
+
+.subPop{display: none; background-color: #fff; position:fixed; left:0; top: 0; width: 100%; height: 100%; overflow-y:scroll;z-index: 200; }
+.subPop::before{content:'자세히보기'; font-size: 1rem; position:fixed; left:0; top: 0; width: 100%; height: 3.125rem; line-height: 3.125rem; font-weight:700; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.15); text-align:center; letter-spacing:-0.065rem;}
+.subPop a {display: block; position: absolute; top: 0; right: 0; padding: 3% 4%; font-size: 1.25rem;}
+.subPop a i {position: relative; display: block; }
+#content .subPop img {display: block; width: 93.75%;  margin: auto; margin-top: 4.375rem; overflow: hidden;} 
+
+#content{}
+#content .overview{}
+
+#content .overview ul{display: flex;justify-content: space-around; }
+#content .overview ul li{width: 49%; position: relative;}
+#content .overview ul li a {padding: 8%; display: block; font-size: 1.5625rem; color: #fff; position: absolute; top: 0%; right: 0%}
+#content .overview ul li i {top: -0.625rem; right: -0.625rem; position: relative; opacity: 0.7;  display: block;}
+#content .overview ul dd{display: none;}
+#content .overview ul li img{}
+#content .hydroMsgbox{margin: 0 3% 6% 3%;}
+
+
+#content .overview ul li:nth-child(1){}
+#content .overview ul li:nth-child(2){}
+#content .overview ul li:nth-child(3){}
+
+
+#content .overview ul li dl {}
+#content .overview ul li dl dt{}
+#content .overview ul li dl dd{}
+
+
+#content .overview .overseas{}
+
+
+
+
+#content .overseasBox {}
+#content .overseasImgbox {}
+#content .overseasImgbox>div{}
+
+#content .overseasMsgbox{}
+
+#content .ovs{}
+#content .ovs .overseasMsgbox p{}
+
+
+#content .ovs dl{}
+#content .ovs01 dl, #content .ovs03 dl{}
+#content .ovs dl dt{font-family: 'Lato', sans-serif; }
+#content .ovs dl dd{font-family: 'Lato', sans-serif;}
+
+.ovs01, .ovs02, .ovs03{}
+/* overflow: hidden; */
+.ovs01{}
+.ovs03{}
+
+.ovslast{}
+.ovs02 .ovslast{}
+
+#content .ovs .ovs01{}
+#content .ovs .ovsImg{}
+#content .ovs .ovsImgleft{}
+

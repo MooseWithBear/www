@@ -1,0 +1,5 @@
+#content .titleArea .lineMap{margin-left: 995px;}
+#content h3{ letter-spacing: 0.29em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; margin-bottom: 90px;}
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+/* #content img{border-radius: 30px;} */
+#content .ceoMsgbox p:first-child{margin-top: -10px;}

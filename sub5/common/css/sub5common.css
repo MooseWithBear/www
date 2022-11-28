@@ -1,0 +1,169 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+/* 서브페이지 공통영역 */
+.wrap{background: #fff;}
+.main{overflow: hidden; background: url(../images/sub_main_dark.webp); width: 2000px; height: 500px;position: relative; left: 50% ; top: 0; margin-left: -1000px;}
+/* .main{background: url(../images/sub_main_bright.webp);} */
+.main .mainbright{background: url(../images/sub_main_bright.webp); width: 2000px; height: 500px; opacity: 0;  animation: houselight 4.2s ease-in-out forwards; animation-delay: 2400ms; }
+.main .maintrees{background:url(../images/sub5_maintrees.webp);width: 100%; height: 500px; position: absolute; top: 0; left: 0; z-index: 10;}
+
+
+/* !wire animation */
+.pathBox { position: absolute; top: 0; width: 2000px;height: 500px; }
+path {
+    stroke-dasharray: 778;
+    stroke-dashoffset:778;
+    animation: wire 3.3s ease-in-out forwards;
+    animation-delay: 0.5s;
+    stroke: rgba(233,185,81,0.7)
+        }
+@keyframes wire {
+    to{stroke-dashoffset: 0;}
+    60%{opacity: 1;}
+    100%{opacity: 0.3;}
+}
+
+
+
+.main .boatwithman{ z-index: 5; background: url(../images/boatman.webp) 0 0 no-repeat; width:300px; height: 130px; position: absolute; bottom:  -50px; left: 200px;  animation: boatswims 80s infinite linear;}
+
+.main h3{font-size: 2.5rem; font-weight: 400; letter-spacing: 0.2em; color: #fff; position:absolute; left: 50%; top: 250px; margin-left: -90px;}
+
+.subNav{}
+.subNav ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.subNav ul li{float: left; width: 50% ; height: 70px; text-align: center;  margin-top: 10px; border: 1px solid #ddd; border-left: 0; border-bottom: 3px solid #1179f2; box-sizing: border-box;}
+.subNav ul li a{display: block; padding: 20px; font-size: 1.125em; font-weight: 500;}
+
+.subNav .current{border: none; }
+.subNav .current a{color: #1179f2;}
+.subNav ul li:first-child{border-radius: 10px 0 0 0; border-left: 1px solid #ddd;}
+.subNav ul li:last-child{border-radius: 0 10px 0 0;}
+.subNav ul li a:hover {color: #1179f2; }
+.subNav ul li a{ position: relative; border-right: 0;;}
+.subNav>ul .current a::after{    
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    border: 3px solid #1179f2;
+    height: 70px;
+    z-index: 2;
+    background: transparent;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;} 
+    
+
+
+    #content .subSlogan p{font-size: 1.5625em; line-height: 60px; text-align: center;}
+    #content .subSlogan p:nth-child(1) { font-size: 2.5em;}
+    #content .subSlogan p:nth-child(2) { color:#666; margin: 40px 0 0 0;}
+    #content .subSlogan p:nth-child(3) { color:#666; margin: 0 0 80px 0;}
+
+
+
+#content{width: 1200px; margin: 0 auto;  }
+#content .titleArea{}
+#content .titleArea .lineMap{margin: 70px 0 20px 960px; color: #999;} 
+#content .titleArea .lineMap span:nth-child(3){color: #666;} 
+
+#content .titleArea h2{letter-spacing: 0.05em; position: relative; font-size: 4.375em; font-weight: 700; text-align: center; margin: 100px 0 130px; font-family: 'Titillium Web', sans-serif;}
+#content .titleArea h2::after{ content: ''; width: 3px; height: 60px; background: #000; display: block;
+                                position: absolute; bottom: -90px; left: 600px;   }
+
+#content .contentArea{}
+
+
+
+
+
+@keyframes houselight {
+    from{opacity: 0;}
+    to{opacity: 1;}
+
+    0%{opacity: 0;}
+    10%{opacity: 0;}
+    30%{opacity: 0;}
+    40%{opacity: 0.1;}
+    44%{opacity: 0.2;}
+    46%{opacity: 0.2;}
+    48%{opacity: 0.6;}
+    52%{opacity: 0.4;}    
+    56%{opacity: 0.9;}
+    58%{opacity: 0.2;}
+    62%{opacity: 0.6;}
+    66%{opacity: 0.1;}
+    70%{opacity: 0.2;}
+    73%{opacity: 0.9;}
+    75%{opacity: 0.9;}
+    80%{opacity: 1;}
+    
+}
+
+
+
+
+
+@keyframes boatswims {
+    10% {transform:translateX(100px)}
+    20% {transform:translateX(100px)}
+    40% {transform: translateX(400px);}
+    50% {transform: translateX(400px);}
+    65% {transform: translateX(800px);}
+    75% {transform: translateX(800px);}
+    to {transform: translateX(2000px);}
+
+
+    2%{bottom:-52px}
+    4.5%{bottom:-51px}
+    6%{bottom:-52px}
+    8.5%{bottom:-50px}
+    10%{bottom:-49px}
+    12.5%{bottom:-51px}
+    14%{bottom:-49px}
+    16.5%{bottom:-50px}    
+    18%{bottom:-48px}
+    22%{bottom:-52px}
+    24.5%{bottom:-51px}
+    26%{bottom:-52px}
+    28.5%{bottom:-50px}
+    30%{bottom:-49px}
+    32.5%{bottom:-51px}
+    34%{bottom:-49px}
+    36.5%{bottom:-50px}    
+    38%{bottom:-48px}
+    40.5%{bottom:-49px}
+    40%{bottom:-52px}
+    42.5%{bottom:-51px}
+    46%{bottom:-52px}
+    48.5%{bottom:-50px}
+    50%{bottom:-49px}
+    52.5%{bottom:-51px}
+    54%{bottom:-49px}
+    56.5%{bottom:-50px}    
+    58%{bottom:-48px}
+    62%{bottom:-52px}
+    64.5%{bottom:-51px}
+    66%{bottom:-52px}
+    68.5%{bottom:-50px}
+    70%{bottom:-49px}
+    72.5%{bottom:-51px}
+    74%{bottom:-49px}
+    76.5%{bottom:-50px}    
+    78%{bottom:-48px}
+    82%{bottom:-52px}
+    84.5%{bottom:-51px}
+    86%{bottom:-52px}
+    88.5%{bottom:-50px}
+    90%{bottom:-49px}
+    92.5%{bottom:-51px}
+    94%{bottom:-49px}
+    96.5%{bottom:-50px}    
+    98%{bottom:-48px}
+
+
+}

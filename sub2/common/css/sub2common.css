@@ -1,0 +1,246 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+/* 서브페이지 공통영역 */
+.wrap{background: #fff;}
+/* .main{ width: 2000px; height: 500px;position: relative; left: 50% ; top: 0; margin-left: -1000px;
+    background: url(../images/sub2_main.webp);
+} */
+
+.main h3{z-index: 4; font-size: 2.5rem; font-weight: 400; letter-spacing: 0.2em; color: #fff; position:absolute; left: 50%; top: 250px; margin-left: -90px;}
+
+
+
+.subNav{}
+.subNav ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.subNav ul li{float: left; width: 33.3% ; height: 70px; text-align: center;  margin-top: 10px; border: 1px solid #ddd; border-left: 0; border-bottom: 3px solid #1179f2; box-sizing: border-box;}
+.subNav ul li a{display: block; padding: 20px; font-size: 1.125em; font-weight: 500;}
+
+.subNav .current{border: none; }
+.subNav .current a{color: #1179f2;}
+.subNav ul li:first-child{border-radius: 10px 0 0 0; border-left: 1px solid #ddd;}
+.subNav ul li:last-child{border-radius: 0 10px 0 0;}
+.subNav ul li a:hover {color: #1179f2; }
+.subNav ul li a{ position: relative; border-right: 0;;}
+.subNav>ul .current a::after{    
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    border: 3px solid #1179f2;
+    height: 70px;
+    z-index: 2;
+    background: transparent;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;} 
+    
+
+
+    #content .subSlogan p{font-size: 1.5625em; line-height: 60px; text-align: center;}
+    #content .subSlogan p:nth-child(1) { font-size: 2.5em;}
+    #content .subSlogan p:nth-child(2) { color:#666; margin: 40px 0 0 0;}
+    #content .subSlogan p:nth-child(3) { color:#666; margin: 0 0 80px 0;}
+
+
+
+#content{width: 1200px; margin: 0 auto;  }
+#content .titleArea{}
+#content .titleArea .lineMap{margin: 70px 0 20px 960px; color: #999;} 
+#content .titleArea .lineMap span:nth-child(3){color: #666;} 
+
+#content .titleArea h2{letter-spacing: 0.05em; position: relative; font-size: 4.375em; font-weight: 700; text-align: center; margin: 100px 0 130px; font-family: 'Titillium Web', sans-serif;}
+#content .titleArea h2::after{ content: ''; width: 3px; height: 60px; background: #000; display: block;
+                                position: absolute; bottom: -90px; left: 600px;   }
+
+#content .contentArea{}
+
+
+/*!  bird animation part--START */
+
+.solar {position: absolute; top: 250px; left: 1300px;}
+.solar div {width: 100px; height: 150px;}
+.solar div img {opacity: 1;}
+
+/* @keyframes clouds-loop-2 {to {background-position: 1000px 0;}}
+.mainCloud{ background-repeat: repeat-x; width: 100%; height: 400px; background-repeat: repeat-x; position: absolute; opacity: 0.4;}
+.clouds-2{
+    background: url(../../../sub1/common/images/clouds_3.png) ;
+    animation: clouds-loop-2 95s infinite linear;
+    z-index: 45;
+    top: 0px;
+    opacity: 0.1;
+    transform: scaleX(10) scaleY(30);
+} */
+
+
+.birdWrap {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background-image:     url('../images/sub2_main.webp')
+    /* ,linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%) */
+    ; 
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-position: center center;
+    /* background-size: cover; */
+
+}
+.birdTop {
+    z-index: 3;
+    position: absolute;
+    background-image: url(../images/sub2_main_top.webp);
+    height: 500px;
+    width: 2000px;
+}
+
+.bird {
+    background-image: url(../images/bird.svg);
+    background-size: auto 100%;
+    width: 88px;
+    height: 125px;
+    animation-name: fly-cycle;
+    animation-timing-function: steps(10);
+    animation-iteration-count: infinite;
+}
+
+.bird1 {
+    animation-duration: 1s;
+    animation-delay: -0.5s;
+}
+
+.bird2 {
+
+    animation-duration: 0.9s;
+    animation-delay: -0.75s;
+}
+
+.bird3 {
+    animation-duration: 1.25s;
+    animation-delay: -0.25s;
+}
+
+.bird4 {
+    animation-duration: 1.1s;
+    animation-delay: -0.5s;
+}
+
+.birdContainer {
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    transform: scale(0) translateX(-10vw);
+    animation-name: fly-right-one;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.birdContainer1 {
+    animation-duration: 15s;
+    animation-delay: 0;
+}
+
+.birdWrap .birdContainer2 {
+    position: absolute;
+    animation-name: fly-right-two;
+    z-index: 10;
+    animation-duration: 16s;
+    animation-delay: 1s;
+}
+
+.birdContainer3 {
+    animation-duration: 14.6s;
+    animation-delay: 9.5s;
+}
+
+.birdWrap .birdContainer4 {
+    animation-name: fly-right-two;
+    z-index: 10;
+    animation-duration: 16s;
+    animation-delay: 10.25s;
+}
+
+@keyframes fly-cycle {
+    100% {
+        background-position: -900px 0;
+    }
+}
+
+@keyframes fly-right-one {
+    0% {
+        transform: scale(0.3) translateX(-10vw);
+    }
+
+    10% {
+        transform: translateY(2vh) translateX(10vw) scale(0.4);
+    }
+
+    20% {
+        transform: translateY(0vh) translateX(30vw) scale(0.5);
+    }
+
+    30% {
+        transform: translateY(4vh) translateX(50vw) scale(0.3);
+    }
+
+    40% {
+        transform: translateY(2vh) translateX(70vw) scale(0.3);
+    }
+
+    50% {
+        transform: translateY(0vh) translateX(90vw) scale(0.6);
+    }
+
+    60% {
+        transform: translateY(0vh) translateX(110vw) scale(0.6);
+    }
+
+    100% {
+        transform: translateY(0vh) translateX(110vw) scale(0.6);
+    }
+}
+
+@keyframes fly-right-two {
+    0% {
+        transform: translateY(-2vh) translateX(-10vw) scale(0.5);
+    }
+
+    10% {
+        transform: translateY(0vh) translateX(10vw) scale(0.4);
+    }
+
+    20% {
+        transform: translateY(-4vh) translateX(30vw) scale(0.6);
+    }
+
+    30% {
+        transform: translateY(9vh) translateX(57vw) scale(1.0);
+    }
+
+    40% {
+        transform: translateY(-2.0vh) translateX(75vw) scale(0.5);
+    }
+
+    50% {
+        transform: translateY(2vh) translateX(90vw) scale(0.45);
+    }
+
+    51% {
+        transform: translateY(0vh) translateX(110vw) scale(0.45);
+    }
+
+    100% {
+        transform: translateY(0vh) translateX(110vw) scale(0.45);
+    }
+}
+
+/*^  bird animation part---END */

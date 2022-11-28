@@ -1,0 +1,134 @@
+
+ $c-logo__dimension:          15px !default;
+ $c-logo__columns:            51 !default;
+ $c-logo__rows:               10 !default;
+ $c-logo__gap:                1px !default;
+
+ $c-logo--o:          transparent !default;
+ $c-logo--w:          #207fe0 !default;
+ $c-logo--a:          #48f0fc !default;
+ $c-logo--b:          #14418d !default;
+ $c-logo--c:          #2491f1 !default;
+ $c-logo--d:          #31dafc !default;
+
+//  $c-logo--o:          transparent !default;
+//  $c-logo--e:          #89F8A6 !default;
+//  $c-logo--f:          #B2D9AB !default;
+//  $c-logo--g:          #CDF091 !default;
+//  $c-logo--h:          #D9D677 !default;
+//  $c-logo--i:          #F8E589 !default;
+
+ $c-logo__colors : (
+    'w':    $c-logo--w,
+    'o':    $c-logo--o,
+    'a':    $c-logo--a,
+    'b':    $c-logo--b,
+    'c':    $c-logo--c,
+    'd':    $c-logo--d
+  ) !default;
+
+  // $c-logo__colors2 : (
+  //   'w':    $c-logo--w,
+  //   'o':    $c-logo--e,
+  //   'a':    $c-logo--f,
+  //   'b':    $c-logo--g,
+  //   'c':    $c-logo--h,
+  //   'd':    $c-logo--i
+  // ) !default;
+
+ $c-logo__width:              $c-logo__dimension * $c-logo__columns !default;
+ $c-logo__height:             $c-logo__dimension * $c-logo__rows !default;
+
+
+
+
+
+   $c-logo__cells : (
+                                                //  10                                                  20                                                 30                                                40
+ // '1','2','3',   '4','5','6',   '7','8','9',   '0',   '1','2','3',   '4',   '5','6','7',   '8','9','0',   '1','2','3',   '4',   '5','6','7',  '8','9','0',  '1','2','3',    '4','5','6',  '7','8','9',  '0','1','2',    '3','4','5',  '6','7','8',  '9','0','1',
+    'a','w','b',   'c','w','c',   'w','a','b',   'o',   'a','w','c',   'o',   'a','b','c',   'o','o','o',   'a','w','a',   'o',   'w','a','w',  'b','c','w',  'a','d','o',    'a','c','w',  'o','o','o',  'o','o','o',    'a','b','c',  'w','b','a',  'c','w','a',
+    'w','w','w',   'w','a','w',   'd','w','w',   'o',   'w','b','w',   'o',   'w','d','w',   'a','o','w',   'w','b','w',   'o',   'b','w','a',  'w','a','w',  'w','b','o',    'w','b','w',  'o','o','o',  'o','o','o',    'w','c','w',  'b','w','w',  'd','d','w',
+    'w','a','w',   'o','o','o',   'w','c','w',   'o',   'w','w','d',   'o',   'o','b','w',   'w','w','c',   'c','w','o',   'o',   'a','c','w',  'o','o','o',  'o','o','o',    'a','w','d',  'o','o','o',  'o','o','o',    'b','w','d',  'w','o','o',  'c','b','w',
+  
+    'w','w','w',   'o','o','o',   'a','w','w',   'o',   'a','w','w',   'o',   'o','o','w',   'w','b','w',   'w','o','o',   'o',   'b','w','b',  'o','o','o',  'o','o','o',    'b','w','w',  'o','o','o',  'o','o','o',    'o','s','w',  'w','b','o',  'o','o','o',
+    'w','b','w',   'c','w','w',   'w','b','w',   'o',   'w','c','w',   'o',   'o','o','o',   'a','w','d',   'o','o','o',   'o',   'w','c','w',  'w','w','w',  'o','o','o',    'c','b','w',  'o','o','o',  'o','o','o',    'o','o','a',  'c','d','c',  'o','o','o',
+    'd','w','w',   'w','a','w',   'w','w','b',   'o',   'w','w','w',   'o',   'o','o','o',   'w','b','w',   'o','o','o',   'o',   'c','w','d',  'w','w','w',  'o','o','o',    'w','w','d',  'o','o','o',  'o','o','o',    'o','o','o',  'w','b','w',  'w','o','o',
+  
+    'a','w','w',   'o','o','o',   'o','o','o',   'o',   'w','b','w',   'o',   'o','o','b',   'w','w','a',   'w','o','o',   'o',   'w','b','w',  'o','o','o',  'o','o','o',    'w','a','c',  'o','o','o',  'o','o','o',    'o','o','o',  'o','w','d',  'a','w','o',
+    'w','d','b',   'o','o','o',   'o','o','o',   'o',   'w','w','w',   'o',   'o','w','d',   'w','c','w',   'd','b','o',   'o',   'a','w','c',  'o','o','o',  'o','o','o',    'b','w','w',  'o','o','o',  'o','o','o',    'b','a','w',  'o','o','w',  'w','b','w',
+    'w','w','b',   'o','o','o',   'o','o','o',   'o',   'd','w','a',   'o',   'a','a','w',   'd','o','b',   'b','w','a',   'o',   'w','w','d',  'c','w','a',  'd','w','o',    'w','a','d',  'b','w','a',  'b','d','o',    'w','c','b',  'w','b','c',  'b','w','a',
+  
+    'a','w','c',   'o','o','o',   'o','o','o',   'o',   'w','b','w',   'o',   'b','w','d',   'o','o','o',   'c','b','d',   'o',   'a','b','w',  'w','b','w',  'w','a','o',    'a','w','c',  'w','a','c',  'a','b','o',    'a','d','w',  'w','a','w',  'w','b','w',
+
+   ) !default;
+
+$c-logo__positions: length($c-logo__cells);
+
+@mixin c-logo__pixelart() {
+    @for $i from 1 through $c-logo__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-logo__colors, nth($c-logo__cells, $i));
+      }
+    }
+  }
+
+  @mixin c-logo__pixelart2() {
+    @for $i from 1 through $c-logo__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-logo__colors2, nth($c-logo__cells, $i));
+      }
+    }
+  }
+
+  .aniBox {display: flex; align-items: center; justify-content: center;}
+  .mario {
+    transition: all 0.5s cubic-beziercubic-bezier(0.1, 0.7, 1.0, 0.1);
+    perspective: 600px;
+    position: absolute;
+  
+  }
+  
+  .mario div {
+    transition: all 1s cubic-beziercubic-bezier(0.1, 0.7, 1.0, 0.1);
+    ;
+    position: static;
+    width: 15px;
+    height: 15px;
+  }
+   
+
+  .c-logo {
+    width: $c-logo__width;
+    height: $c-logo__height;
+    display: grid;
+    grid-template-columns: repeat($c-logo__columns, 1fr);
+    grid-template-rows: repeat($c-logo__rows, 1fr);
+    grid-column-gap: $c-logo__gap;
+    grid-row-gap: $c-logo__gap;  
+    @include c-logo__pixelart();  
+  }
+
+  // .c-logo.second {
+  //   width: $c-logo__width;
+  //   height: $c-logo__height;
+  //   display: grid;
+  //   grid-template-columns: repeat($c-logo__columns, 1fr);
+  //   grid-template-rows: repeat($c-logo__rows, 1fr);
+  //   grid-column-gap: $c-logo__gap;
+  //   grid-row-gap: $c-logo__gap;  
+  //   @include c-logo__pixelart2();  
+  // }
+//    // '1','2','3',   '4','5','6',   '7','8','9',   '0',   '1','2','3',   '4',   '5','6','7',   '8','9','0',   '1','2','3',   '4',   '5','6','7',  '8','9','0',  '1','2','3',    '4','5','6',  '7','8','9',  '0','1','2',    '3','4','5',  '6','7','8',  '9','0','1',
+//    'w','w','w',   'w','w','w',   'w','w','w',   'o',   'w','w','w',   'o',   'w','w','w',   'o','o','o',   'w','w','w',   'o',   'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'w','w','w',  'w','w','w',
+//    'w','w','w',   'w','w','w',   'w','w','w',   'o',   'w','w','w',   'o',   'w','w','w',   'w','o','w',   'w','w','w',   'o',   'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'w','w','w',  'w','w','w',
+//    'w','w','w',   'o','o','o',   'w','w','w',   'o',   'w','w','w',   'o',   'o','w','w',   'w','w','w',   'w','w','o',   'o',   'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'w','o','o',  'w','w','w',
+ 
+//    'w','w','w',   'o','o','o',   'w','w','w',   'o',   'w','w','w',   'o',   'o','o','w',   'w','w','w',   'w','o','o',   'o',   'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'o','w','w',  'w','w','o',  'o','o','o',
+//    'w','w','w',   'w','w','w',   'w','w','w',   'o',   'w','w','w',   'o',   'o','o','o',   'w','w','w',   'o','o','o',   'o',   'w','w','w',  'w','w','w',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'o','o','w',  'w','w','w',  'o','o','o',
+//    'w','w','w',   'w','w','w',   'w','w','w',   'o',   'w','w','w',   'o',   'o','o','o',   'w','w','w',   'o','o','o',   'o',   'w','w','w',  'w','w','w',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'o','o','o',  'w','w','w',  'w','o','o',
+ 
+//    'w','w','w',   'o','o','o',   'o','o','o',   'o',   'w','w','w',   'o',   'o','o','w',   'w','w','w',   'w','o','o',   'o',   'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'o','o','o',  'o','w','w',  'w','w','o',
+//    'w','w','w',   'o','o','o',   'o','o','o',   'o',   'w','w','w',   'o',   'o','w','w',   'w','w','w',   'w','w','o',   'o',   'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'o','o','o',  'o','o','o',    'w','w','w',  'o','o','w',  'w','w','w',
+//    'w','w','w',   'o','o','o',   'o','o','o',   'o',   'w','w','w',   'o',   'w','w','w',   'w','o','w',   'w','w','w',   'o',   'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'w','w','w',  'w','w','w',
+ 
+//    'w','w','w',   'o','o','o',   'o','o','o',   'o',   'w','w','w',   'o',   'w','w','w',   'o','o','o',   'w','w','w',   'o',   'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'w','w','w',  'w','w','o',    'w','w','w',  'w','w','w',  'w','w','w',

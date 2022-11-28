@@ -1,0 +1,3911 @@
+/* ============================================================
+ * Here we go!! Another madness more... 
+ * ============================================================
+ *
+ * Testing the possibilities that CSS Grid layout will offer us,
+ * in this example we created a grid to paint them and create pixel art ;)
+ *
+ */
+.c-supermario {
+  width: 240px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  animation: gap 4.5s linear forwards;
+}
+.c-supermario > div:nth-child(1) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(2) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(3) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(4) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(5) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(6) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(7) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(8) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(9) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(10) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(11) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(12) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(13) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(14) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(15) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(16) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(17) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(18) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(19) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(20) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(21) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(22) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(23) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(24) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(25) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(26) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(27) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(28) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(29) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(30) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(31) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(32) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(33) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(34) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(35) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(36) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(37) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(38) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(39) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(40) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(41) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(42) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(43) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(44) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(45) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(46) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(47) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(48) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(49) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(50) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(51) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(52) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(53) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(54) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(55) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(56) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(57) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(58) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(59) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(60) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(61) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(62) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(63) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(64) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(65) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(66) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(67) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(68) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(69) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(70) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(71) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(72) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(73) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(74) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(75) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(76) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(77) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(78) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(79) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(80) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(81) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(82) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(83) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(84) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(85) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(86) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(87) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(88) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(89) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(90) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(91) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(92) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(93) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(94) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(95) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(96) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(97) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(98) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(99) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(100) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(101) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(102) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(103) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(104) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(105) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(106) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(107) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(108) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(109) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(110) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(111) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(112) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(113) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(114) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(115) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(116) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(117) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(118) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(119) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(120) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(121) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(122) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(123) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(124) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(125) {
+  background: #f6f700;
+}
+.c-supermario > div:nth-child(126) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(127) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(128) {
+  background: #f6f700;
+}
+.c-supermario > div:nth-child(129) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(130) {
+  background: #f60002;
+}
+.c-supermario > div:nth-child(131) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(132) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(133) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(134) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(135) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(136) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(137) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(138) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(139) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(140) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(141) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(142) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(143) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(144) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(145) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(146) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(147) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(148) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(149) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(150) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(151) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(152) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(153) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(154) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(155) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(156) {
+  background: #f6c084;
+}
+.c-supermario > div:nth-child(157) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(158) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(159) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(160) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(161) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(162) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(163) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(164) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(165) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(166) {
+  background: #00519f;
+}
+.c-supermario > div:nth-child(167) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(168) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(169) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(170) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(171) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(172) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(173) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(174) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(175) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(176) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(177) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(178) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(179) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(180) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(181) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(182) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(183) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(184) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(185) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(186) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(187) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(188) {
+  background: transparent;
+}
+.c-supermario > div:nth-child(189) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(190) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(191) {
+  background: #5d3712;
+}
+.c-supermario > div:nth-child(192) {
+  background: #5d3712;
+}
+
+.c-supermario2 {
+  width: 320px;
+  height: 280px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  animation: gap 4.5s linear forwards;
+}
+.c-supermario2 > div:nth-child(1) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(2) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(3) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(4) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(5) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(6) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(7) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(8) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(9) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(10) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(11) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(12) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(13) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(14) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(15) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(16) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(17) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(18) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(19) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(20) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(21) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(22) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(23) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(24) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(25) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(26) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(27) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(28) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(29) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(30) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(31) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(32) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(33) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(34) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(35) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(36) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(37) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(38) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(39) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(40) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(41) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(42) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(43) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(44) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(45) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(46) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(47) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(48) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(49) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(50) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(51) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(52) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(53) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(54) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(55) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(56) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(57) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(58) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(59) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(60) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(61) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(62) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(63) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(64) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(65) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(66) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(67) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(68) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(69) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(70) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(71) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(72) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(73) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(74) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(75) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(76) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(77) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(78) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(79) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(80) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(81) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(82) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(83) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(84) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(85) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(86) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(87) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(88) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(89) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(90) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(91) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(92) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(93) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(94) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(95) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(96) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(97) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(98) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(99) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(100) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(101) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(102) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(103) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(104) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(105) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(106) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(107) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(108) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(109) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(110) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(111) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(112) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(113) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(114) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(115) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(116) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(117) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(118) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(119) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(120) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(121) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(122) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(123) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(124) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(125) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(126) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(127) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(128) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(129) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(130) {
+  background: #f6c084;
+}
+.c-supermario2 > div:nth-child(131) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(132) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(133) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(134) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(135) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(136) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(137) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(138) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(139) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(140) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(141) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(142) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(143) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(144) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(145) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(146) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(147) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(148) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(149) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(150) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(151) {
+  background: #f60002;
+}
+.c-supermario2 > div:nth-child(152) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(153) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(154) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(155) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(156) {
+  background: #f6f700;
+}
+.c-supermario2 > div:nth-child(157) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(158) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(159) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(160) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(161) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(162) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(163) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(164) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(165) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(166) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(167) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(168) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(169) {
+  background: #f6f700;
+}
+.c-supermario2 > div:nth-child(170) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(171) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(172) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(173) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(174) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(175) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(176) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(177) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(178) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(179) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(180) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(181) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(182) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(183) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(184) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(185) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(186) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(187) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(188) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(189) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(190) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(191) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(192) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(193) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(194) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(195) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(196) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(197) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(198) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(199) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(200) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(201) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(202) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(203) {
+  background: #00519f;
+}
+.c-supermario2 > div:nth-child(204) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(205) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(206) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(207) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(208) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(209) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(210) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(211) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(212) {
+  background: #5d3712;
+}
+.c-supermario2 > div:nth-child(213) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(214) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(215) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(216) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(217) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(218) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(219) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(220) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(221) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(222) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(223) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(224) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(225) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(226) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(227) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(228) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(229) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(230) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(231) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(232) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(233) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(234) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(235) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(236) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(237) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(238) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(239) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(240) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(241) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(242) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(243) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(244) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(245) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(246) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(247) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(248) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(249) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(250) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(251) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(252) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(253) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(254) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(255) {
+  background: transparent;
+}
+.c-supermario2 > div:nth-child(256) {
+  background: transparent;
+}
+
+.marioBox .c-supermario_run {
+  display: none;
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.marioBox .c-supermario_run > div:nth-child(1) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(2) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(3) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(4) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(5) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(6) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(7) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(8) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(9) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(10) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(11) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(12) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(13) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(14) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(15) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(16) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(17) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(18) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(19) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(20) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(21) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(22) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(23) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(24) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(25) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(26) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(27) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(28) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(29) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(30) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(31) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(32) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(33) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(34) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(35) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(36) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(37) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(38) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(39) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(40) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(41) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(42) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(43) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(44) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(45) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(46) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(47) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(48) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(49) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(50) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(51) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(52) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(53) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(54) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(55) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(56) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(57) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(58) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(59) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(60) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(61) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(62) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(63) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(64) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(65) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(66) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(67) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(68) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(69) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(70) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(71) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(72) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(73) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(74) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(75) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(76) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(77) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(78) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(79) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(80) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(81) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(82) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(83) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(84) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(85) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(86) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(87) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(88) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(89) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(90) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(91) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(92) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(93) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(94) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(95) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(96) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(97) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(98) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(99) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(100) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(101) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(102) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(103) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(104) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(105) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(106) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(107) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(108) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(109) {
+  background: #5d3712;
+}
+.marioBox .c-supermario_run > div:nth-child(110) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(111) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(112) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(113) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(114) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(115) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(116) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(117) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(118) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(119) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(120) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(121) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(122) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(123) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(124) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(125) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(126) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(127) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(128) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(129) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(130) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(131) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(132) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(133) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(134) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(135) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(136) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(137) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(138) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(139) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(140) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(141) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(142) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(143) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(144) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(145) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(146) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(147) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(148) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(149) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(150) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(151) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(152) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(153) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(154) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(155) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(156) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(157) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(158) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(159) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(160) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(161) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(162) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(163) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(164) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(165) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(166) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(167) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(168) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(169) {
+  background: #f6f700;
+}
+.marioBox .c-supermario_run > div:nth-child(170) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(171) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(172) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(173) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(174) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(175) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(176) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(177) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(178) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(179) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(180) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(181) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(182) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(183) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(184) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(185) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(186) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(187) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(188) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(189) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(190) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(191) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(192) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(193) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(194) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(195) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(196) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(197) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(198) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(199) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(200) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(201) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(202) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(203) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(204) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(205) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(206) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(207) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(208) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(209) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(210) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(211) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(212) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(213) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(214) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(215) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(216) {
+  background: #f6c084;
+}
+.marioBox .c-supermario_run > div:nth-child(217) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(218) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(219) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(220) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(221) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(222) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(223) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(224) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(225) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(226) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(227) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(228) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(229) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(230) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(231) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(232) {
+  background: #00519f;
+}
+.marioBox .c-supermario_run > div:nth-child(233) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(234) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(235) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(236) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(237) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(238) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(239) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(240) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(241) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(242) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(243) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(244) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(245) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(246) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(247) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(248) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(249) {
+  background: #f60002;
+}
+.marioBox .c-supermario_run > div:nth-child(250) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(251) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(252) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(253) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(254) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(255) {
+  background: transparent;
+}
+.marioBox .c-supermario_run > div:nth-child(256) {
+  background: transparent;
+}
+
+.c-supermario_run.second {
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.c-supermario_run.second > div:nth-child(1) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(2) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(3) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(4) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(5) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(6) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(7) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(8) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(9) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(10) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(11) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(12) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(13) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(14) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(15) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(16) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(17) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(18) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(19) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(20) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(21) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(22) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(23) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(24) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(25) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(26) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(27) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(28) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(29) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(30) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(31) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(32) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(33) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(34) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(35) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(36) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(37) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(38) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(39) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(40) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(41) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(42) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(43) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(44) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(45) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(46) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(47) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(48) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(49) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(50) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(51) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(52) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(53) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(54) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(55) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(56) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(57) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(58) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(59) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(60) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(61) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(62) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(63) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(64) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(65) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(66) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(67) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(68) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(69) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(70) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(71) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(72) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(73) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(74) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(75) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(76) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(77) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(78) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(79) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(80) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(81) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(82) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(83) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(84) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(85) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(86) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(87) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(88) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(89) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(90) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(91) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(92) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(93) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(94) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(95) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(96) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(97) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(98) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(99) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(100) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(101) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(102) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(103) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(104) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(105) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(106) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(107) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(108) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(109) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(110) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(111) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(112) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(113) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(114) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(115) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(116) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(117) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(118) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(119) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(120) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(121) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(122) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(123) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(124) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(125) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(126) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(127) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(128) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(129) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(130) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(131) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(132) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(133) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(134) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(135) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(136) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(137) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(138) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(139) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(140) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(141) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(142) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(143) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(144) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(145) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(146) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(147) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(148) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(149) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(150) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(151) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(152) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(153) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(154) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(155) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(156) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(157) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(158) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(159) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(160) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(161) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(162) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(163) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(164) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(165) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(166) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(167) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(168) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(169) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(170) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(171) {
+  background: #f60002;
+}
+.c-supermario_run.second > div:nth-child(172) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(173) {
+  background: #f6c084;
+}
+.c-supermario_run.second > div:nth-child(174) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(175) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(176) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(177) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(178) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(179) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(180) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(181) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(182) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(183) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(184) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(185) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(186) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(187) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(188) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(189) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(190) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(191) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(192) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(193) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(194) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(195) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(196) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(197) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(198) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(199) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(200) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(201) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(202) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(203) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(204) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(205) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(206) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(207) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(208) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(209) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(210) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(211) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(212) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(213) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(214) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(215) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(216) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(217) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(218) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(219) {
+  background: #00519f;
+}
+.c-supermario_run.second > div:nth-child(220) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(221) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(222) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(223) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(224) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(225) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(226) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(227) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(228) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(229) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(230) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(231) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(232) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(233) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(234) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(235) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(236) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(237) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(238) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(239) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(240) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(241) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(242) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(243) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(244) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(245) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(246) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(247) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(248) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(249) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(250) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(251) {
+  background: #5d3712;
+}
+.c-supermario_run.second > div:nth-child(252) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(253) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(254) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(255) {
+  background: transparent;
+}
+.c-supermario_run.second > div:nth-child(256) {
+  background: transparent;
+}
+
+.c-supermario_run.third {
+  width: 320px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.c-supermario_run.third > div:nth-child(1) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(2) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(3) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(4) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(5) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(6) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(7) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(8) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(9) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(10) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(11) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(12) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(13) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(14) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(15) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(16) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(17) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(18) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(19) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(20) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(21) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(22) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(23) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(24) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(25) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(26) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(27) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(28) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(29) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(30) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(31) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(32) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(33) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(34) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(35) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(36) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(37) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(38) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(39) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(40) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(41) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(42) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(43) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(44) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(45) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(46) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(47) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(48) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(49) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(50) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(51) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(52) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(53) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(54) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(55) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(56) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(57) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(58) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(59) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(60) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(61) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(62) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(63) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(64) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(65) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(66) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(67) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(68) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(69) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(70) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(71) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(72) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(73) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(74) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(75) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(76) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(77) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(78) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(79) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(80) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(81) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(82) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(83) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(84) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(85) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(86) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(87) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(88) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(89) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(90) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(91) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(92) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(93) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(94) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(95) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(96) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(97) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(98) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(99) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(100) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(101) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(102) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(103) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(104) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(105) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(106) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(107) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(108) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(109) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(110) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(111) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(112) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(113) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(114) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(115) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(116) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(117) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(118) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(119) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(120) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(121) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(122) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(123) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(124) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(125) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(126) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(127) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(128) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(129) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(130) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(131) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(132) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(133) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(134) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(135) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(136) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(137) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(138) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(139) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(140) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(141) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(142) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(143) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(144) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(145) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(146) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(147) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(148) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(149) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(150) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(151) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(152) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(153) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(154) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(155) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(156) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(157) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(158) {
+  background: #f60002;
+}
+.c-supermario_run.third > div:nth-child(159) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(160) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(161) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(162) {
+  background: #f6c084;
+}
+.c-supermario_run.third > div:nth-child(163) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(164) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(165) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(166) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(167) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(168) {
+  background: #f6f700;
+}
+.c-supermario_run.third > div:nth-child(169) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(170) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(171) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(172) {
+  background: #f6f700;
+}
+.c-supermario_run.third > div:nth-child(173) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(174) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(175) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(176) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(177) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(178) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(179) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(180) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(181) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(182) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(183) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(184) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(185) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(186) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(187) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(188) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(189) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(190) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(191) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(192) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(193) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(194) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(195) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(196) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(197) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(198) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(199) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(200) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(201) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(202) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(203) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(204) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(205) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(206) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(207) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(208) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(209) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(210) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(211) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(212) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(213) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(214) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(215) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(216) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(217) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(218) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(219) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(220) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(221) {
+  background: #00519f;
+}
+.c-supermario_run.third > div:nth-child(222) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(223) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(224) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(225) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(226) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(227) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(228) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(229) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(230) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(231) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(232) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(233) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(234) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(235) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(236) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(237) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(238) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(239) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(240) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(241) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(242) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(243) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(244) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(245) {
+  background: #5d3712;
+}
+.c-supermario_run.third > div:nth-child(246) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(247) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(248) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(249) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(250) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(251) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(252) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(253) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(254) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(255) {
+  background: transparent;
+}
+.c-supermario_run.third > div:nth-child(256) {
+  background: transparent;
+}
+
+.c-supermario_run.moveRight {
+  opacity: 0;
+  animation: right 5s linear;
+  animation-delay: 4.6s;
+}
+
+@keyframes right {
+  5% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  7.5% {
+    opacity: 0.2;
+  }
+  10.0% {
+    opacity: 0.8;
+  }
+  14.5% {
+    opacity: 0.2;
+  }
+  18.0% {
+    opacity: 0.8;
+  }
+  21.5% {
+    opacity: 0.2;
+  }
+  22.0% {
+    opacity: 0.8;
+  }
+  25.5% {
+    opacity: 0.2;
+  }
+  28.0% {
+    opacity: 0.5;
+  }
+  31.5% {
+    opacity: 0.9;
+  }
+  33.0% {
+    opacity: 0.8;
+  }
+  35.5% {
+    opacity: 0.9;
+  }
+  38.0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  to {
+    transform: translateX(900px);
+    opacity: 0;
+  }
+}
+.marioBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mario {
+  transition: all 0.5s cubic-beziercubic-bezier(0.1, 0.7, 1, 0.1);
+  perspective: 600px;
+  position: absolute;
+}
+
+.mario div {
+  transition: all 1s cubic-beziercubic-bezier(0.1, 0.7, 1, 0.1);
+  position: static;
+  width: 2px;
+  height: 2px;
+}
+
+.c-supermario div {
+  position: static;
+  width: 20px;
+  height: 20px;
+  transition: all 3s cubic-beziercubic-bezier(0.1, 0.7, 1, 0.1);
+  animation: roll 5s forwards cubic-bezier(0.29, 0.1, 1, 1.01);
+}
+
+.c-supermario2 {
+  opacity: 0;
+  animation: opac 3s forwards;
+  animation-delay: 10s;
+  animation-timing-function: cubic-beziercubic-bezier(0.1, 1.7, 1, 0.1);
+  transition: all 1s ease;
+}
+
+@keyframes opac {
+  to {
+    opacity: 1;
+  }
+}
+.c-supermario2 {
+  opacity: 0;
+  animation: bounce 3s infinite;
+  animation-delay: 10s;
+  animation-timing-function: cubic-beziercubic-bezier(0.1, 1.7, 1, 0.1);
+  transition: all 1s ease;
+}
+
+.c-supermario2 div,
+.c-supermario_run div {
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
+  10% {
+    transform: scale(1, 0.97) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1) translateY(-10vh);
+  }
+  50% {
+    transform: scale(1, 0.95) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes gap {
+  94% {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+  95% {
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+}
+@keyframes bounce2 {
+  5% {
+    opacity: 1;
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  40% {
+    transform: translate(400px, -500px);
+  }
+  100% {
+    transform: translate(600px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes roll {
+  20% {
+    width: 1px;
+    height: 5px;
+    border-radius: 10px;
+  }
+  55% {
+    width: 5px;
+    height: 5px;
+  }
+  53% {
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+    transform: rotateY(3600deg);
+  }
+  53% {
+    width: 5px;
+    height: 5px;
+    opacity: 1;
+    transform: rotateY(3600deg);
+  }
+  95% {
+    width: 20px;
+    height: 20px;
+  }
+  96% {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    transform: rotateY(3600deg);
+  }
+  98% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    width: 5px;
+    transform: rotateY(3600deg);
+    height: 5px;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */

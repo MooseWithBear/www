@@ -1,0 +1,251 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+/* ! 액티브 애니메이션 키프레임 */
+@keyframes bottom-up{
+  from{transform:translateY(50px); opacity:0;}
+  to {transform:translateY(0); opacity:1;}}
+  @keyframes left-right{
+    from{transform:translateX(50px); opacity:0;}
+    to {transform:translateX(0); opacity:1;}}
+    @keyframes right-left{
+      from{transform:translateX(-50px); opacity:0;}
+      to {transform:translateX(0); opacity:1;}}
+
+      
+/* 서브페이지 메인 비주얼 공통영역 */
+.main{overflow: hidden; transform: translateZ(0); width: 2000px; height: 500px;position: relative; left: 50% ; top: 0; margin-left: -1000px;}
+.main h3{z-index: 50; font-size: 2.5rem; font-weight: 400; letter-spacing: 0.2em; color: #fff; position:absolute; left: 50%; top: 250px; margin-left: -90px;}
+
+.mainContainer{transform: translateZ(0); width: 100%; height: 500px ; overflow: hidden;}
+.backgrounds{width: 100%; height: 500px; position: absolute; top:0;}
+.mainBackground{height: 500px ; width: 100%; position: absolute; top: 0; }
+
+.background-1{background: url(../images/bgBot.webp); z-index: 10;}
+.background-2{background: url(../images/bgMid01.webp); z-index: 20;}
+.background-3{background: url(../images/bgMid02.webp); z-index: 30;}
+.background-4{background: url(../images/bgMid03.webp); z-index: 40;}
+.background-5{background: url(../images/bgTop01.webp); z-index: 50;}
+.background-6{background: url(../images/bgTop02.webp); z-index: 60;}
+
+.clouds {
+    /* transform: translateZ(0); */
+    width: 100%; height: 400%; position: relative;}
+
+.mainCloud{ background-repeat: repeat-x; width: 100%; height: 400px; background-repeat: repeat-x; position: absolute; opacity: 0.4;}
+
+  .clouds-1{ 
+    background: url(../images/clouds_4.webp);
+    animation: clouds-loop-1 37s infinite linear;
+    z-index: 25;
+    opacity: 0.1;
+    top: 130px;
+}
+  .clouds-2{
+    background: url(../images/clouds_2.png);
+    animation: clouds-loop-2 99s infinite linear;
+    z-index: 45;
+    bottom: 0px;
+    opacity: 0.18;
+    transform: scaleX(99) scaleY(30);
+}
+  /* .clouds-3{
+    background: url(../images/clouds_1.png);
+    z-index: 25;
+    opacity: 0.1;
+    animation: clouds-loop-2 50s infinite linear;
+  } */
+  .clouds-4{ 
+    background: url(../images/clouds_3.png);
+    animation: clouds-loop-3 33s infinite linear;
+    z-index: 35;
+    opacity: 0.2;
+    top: 100px;
+    left: 0px;
+  }
+
+      /* 하늘번개
+      .clouds-5{ 
+    background: url(../images/clouds_3.png);
+    animation: clouds-loop-4 9s infinite linear;
+    z-index: 15;
+    transform: scale(999);
+    opacity: 1;
+    top: -100px;
+  } */
+
+  .clouds-5{ 
+    background: url(../images/clouds_63.webp);
+    animation: clouds-loop-5 20s infinite linear;
+    z-index: 45;
+    opacity: 0.2;
+    top: 300px;
+
+  }
+
+@keyframes clouds-loop-1 {to {background-position: -2000px 0;}}
+@keyframes clouds-loop-2 {to {background-position: 1000px 0;}}
+@keyframes clouds-loop-3 {to {background-position: 1579px 0px;}}
+@keyframes clouds-loop-4 {to {background-position: -500px 0px;}}
+@keyframes clouds-loop-5 {to {background-position: -2000px 0px;}}
+
+
+ /* 서브1 메인비주얼 svg 애니메이션 영역 */
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    .turbines>div{position: relative;}
+    .turbines01>div{width: 55px;}
+    .turbines02>div{width: 38px;}
+    .turbines03>div{width: 30px;}
+    .turbines04>div{width: 10px;}
+
+    .turbines01 .windturbine{z-index: 42;}
+    .turbines02 .windturbine{z-index: 31;}
+    .turbines03 .windturbine{z-index: 21;}
+    .turbines04 .windturbine{z-index: 16;}
+
+    .turbineBox01,
+    .turbineBox02,
+    .turbineBox03,
+    .turbineBox04{float: left; margin: 1px;}
+
+    .turbines01 {position: absolute; top: 335px; left: 65px;}
+    .turbines01 .turbineBox01{}
+    .turbines01 .turbineBox02{top: 12px;}
+    .turbines01 .turbineBox03{top: 26px;}
+
+    .turbines02 { position: absolute; top: 340px; left: 1290px;}
+    .turbines02 .turbineBox01{top: 4px;}
+    .turbines02 .turbineBox02{margin: 0 1px; top: -3px;}
+    .turbines02 .turbineBox03{top: -15px;}
+
+    .turbines03 { position: absolute; top: 208px; left: 580px;}
+    .turbines03 .turbineBox01{}
+    .turbines03 .turbineBox02{margin: 13px; top: -23px;}
+    .turbines03 .turbineBox03{top: 3px;}
+
+    .turbines04 { position: absolute; top: 146px; left: 1400px;}
+    .turbines04 .turbineBox01{}
+    .turbines04 .turbineBox02{margin: 15px; top: -15px;}
+    .turbines04 .turbineBox03{top: 0px;}
+
+
+
+
+    .windturbine {
+        width: 100px;
+        height: 60px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+    .turbines svg {
+      width: 100%;
+      overflow: visible;
+      position: absolute;
+  }
+
+
+  .turbines01 svg{height: 88%;}
+  .turbines02 svg{height: 54%;}
+  .turbines03 svg{height: 56%;}
+  .turbines04 svg{height: 32%;}
+
+
+
+    /* .turbines #svgWind01 {width: 100%; height: 88%;}
+    .turbines .svgWind02{width: 100%; height: 54%;}
+    .turbines .svgWind03{width: 100%; height: 56%;}
+    .turbines .svgWind04{width: 100%; height: 32%;} */
+
+    #blade01,
+    #blade02,
+    #blade03,
+    #blade04,
+    #blade05,
+    #blade06,
+    #blade07,
+    #blade08,
+    #blade09,
+    #blade10,
+    #blade11,
+    #blade12{transform-origin: 61% 55%;animation: spin infinite linear;}
+
+
+#blade01, #blade04, #blade07, #blade10{animation-duration: 2.9s;}
+#blade02, #blade05, #blade08, #blade11{animation-duration: 3.5s;}
+#blade03, #blade06, #blade09, #blade12{animation-duration: 3.3s;}
+/* 
+
+    .turbines01 .turbineBox01 #blade01{animation-duration: 2.9s;}
+    .turbines01 .turbineBox02 #blade01{animation-duration: 3.2s;}
+    .turbines01 .turbineBox03 #blade01{animation-duration: 3.5s;}
+    .turbines02 .turbineBox01 #blade02{animation-duration: 3.0s;}
+    .turbines02 .turbineBox02 #blade02{animation-duration: 3.2s;}
+    .turbines02 .turbineBox03 #blade02{animation-duration: 3.5s;}
+    .turbines03 .turbineBox01 #blade03{animation-duration: 3.0s;}
+    .turbines03 .turbineBox02 #blade03{animation-duration: 3.2s;}
+    .turbines03 .turbineBox03 #blade03{animation-duration: 3.5s;}
+    .turbines04 .turbineBox01 #blade04{animation-duration: 3.0s;}
+    .turbines04 .turbineBox02 #blade04{animation-duration: 3.2s;}
+    .turbines04 .turbineBox03 #blade04{animation-duration: 3.5s;} */
+
+
+/* 서브페이지 공통영역 */
+
+.wrap{background: #fff;}
+.main{width: 2000px; height: 500px;position: relative; left: 50% ; top: 0; margin-left: -1000px;}
+.main h3{font-size: 2.5rem; font-weight: 400; letter-spacing: 0.2em; color: #fff; position:absolute; left: 50%; top: 250px; margin-left: -90px;}
+
+.subNav{}
+.subNav ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.subNav ul li{float: left; width: 25% ; height: 70px; text-align: center;  margin-top: 10px; border: 1px solid #ddd; border-left: 0; border-bottom: 3px solid #1179f2; box-sizing: border-box;}
+.subNav ul li a{display: block; padding: 20px; font-size: 1.125em; font-weight: 500;}
+
+.subNav .current{border: none; }
+.subNav .current a{color: #1179f2;}
+.subNav ul li:first-child{border-radius: 10px 0 0 0; border-left: 1px solid #ddd;}
+.subNav ul li:last-child{border-radius: 0 10px 0 0;}
+.subNav ul li a:hover {color: #1179f2; }
+.subNav ul li a{ position: relative; border-right: 0;;}
+.subNav>ul .current a::after{    
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    border: 3px solid #1179f2;
+    height: 70px;
+    z-index: 2;
+    background: transparent;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;} 
+    
+
+
+#content .subSlogan p{font-size: 1.5625em; line-height: 60px; text-align: center;}
+#content .subSlogan p:nth-child(1) { font-size: 2.5em;}
+#content .subSlogan p:nth-child(2) { color:#666; margin: 40px 0 0 0;}
+#content .subSlogan p:nth-child(3) { color:#666; margin: 0 0 80px 0;}
+
+#content{width: 1200px; margin: 0 auto;  }
+#content .titleArea{}
+#content .titleArea .lineMap{margin: 70px 0 20px 1020px; color: #999;} 
+#content .titleArea .lineMap span:nth-child(3){color: #666;} 
+
+#content .titleArea h2{letter-spacing: 0.05em; position: relative; font-size: 4.375em; font-weight: 700; text-align: center; margin: 100px 0 130px; font-family: 'Titillium Web', sans-serif;}
+#content .titleArea h2::after{ content: ''; width: 3px; height: 60px; background: #000; display: block;
+                                position: absolute; bottom: -90px; left: 600px;   }
+
+#content .contentArea{}

@@ -1,0 +1,96 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #content .titleArea .lineMap {margin: 70px 0 20px 1000px;} */
+#content h3{ letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; margin-bottom: 90px;}
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+/* #content img{border-radius: 30px;} */
+#content .ceoMsgbox p:first-child{margin-top: -10px;}
+
+
+#content{}
+#content .overview{}
+
+#content .overview ul{overflow: hidden; width: 1280px;position: relative; left: -0px; }
+#content .overview ul li{width: 580px; float: left;   left: 0; margin: 0 30px 0 30px;}
+
+#content .overview ul li img{border-radius: 20px;}
+
+#content .overview ul li:nth-child(1){margin-left: 0;}
+#content .overview ul li:nth-child(2){margin-right: 0;}
+#content .overview ul li:nth-child(3){}
+
+
+#content .overview ul li dl {width: 560px; padding: 0 5px 0 0; margin-bottom: 220px;}
+#content .overview ul li dl dt{font-size: 26px; margin: 42px 0 42px 0; font-weight: 700; }
+#content .overview ul li dl dd{font-family: 'Lato', sans-serif;font-size: 18px; line-height: 36px; color: #666; text-align: justify; letter-spacing: -0.023em; padding-right: 10px;}
+
+
+#content .overview .overseas{}
+
+
+
+
+#content .safety{}
+#content .safetyInner{}
+#content .safetySystem{margin-bottom: 150px;}
+#content .safetySystem p{}
+#content .safetySystem ul{margin: 40px 0; width: 600px; box-sizing: border-box; background: #f5f5f5;  padding: 30px 0 30px 110px; }
+#content .safetySystem ul li{ line-height: 45px; list-style:disc;  width: 600px; font-size: 1.125em;}
+#content .safetySystem .safetySystemleft{float: left; border-radius: 30px 0 0 30px; }
+#content .safetySystem .safetySystemright{float: left; padding-left: 60px; border-radius:  0 30px 30px 0;}
+
+
+#content .safetyDiagram01{margin: 0 0 50px 0; position: relative; width: 1200px; height: 900px; overflow: hidden;}
+#content .safetyDiagram01 p{font-size: 40px; font-weight: 500; padding: 30px 0; }
+#content .safetyDiagram01 ul{}
+#content .safetyDiagram01 ul li{font-family: 'Lato', sans-serif; text-align: center; font-size: 30px; line-height: 60px; color: #fff;}
+
+        
+#content .safetyDiagram01 .circle {box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 0.2); box-sizing: border-box; width: 450px; height: 450px;  border-radius: 50%; position: absolute; left: 375px; top: 0px;}
+#content .safetyDiagram01 .circle>ul{padding-top: 140px}
+
+#content .safetyDiagram01 .circleTop { margin-top: 30px; background: rgba(17,121,242,0.8);}
+#content .safetyDiagram01 .circleLeft { top: 340px; left: 200px;background:rgba(10, 184, 197, 0.8);}
+#content .safetyDiagram01 .circleRight {top: 340px; left: 555px; background:rgba(254, 111, 64, 0.8);}
+
+#content .safetyDiagram01 .circleTop ul{padding-top: 120px;}
+#content .safetyDiagram01 .circleTop ul li{}
+#content .safetyDiagram01 .circleLeft>ul>li{}
+#content .safetyDiagram01 .circleLeft>ul>li>ul>li{font-size: 22px; line-height: 40px; list-style:disc; text-align: left; margin-left: 170px; width: 300px;}
+#content .safetyDiagram01 .circleRight ul li{}
+
+
+
+#content .saftyCert{border-radius: 20px; overflow: hidden; margin-bottom: 250px;background:rgba(245,245,245,0.7); padding: 100px 0;}
+#content .saftyCert div{border-radius: 20px; }
+#content .saftyCertimg{border: 2px solid #666; box-sizing: border-box; width: 460px; margin: 0 10px 0px 50px;  height: 660px;  float: left; background: url(../images/content1/safetycertification.webp) no-repeat;}
+#content .saftyCertmsg{ padding: 10px; box-sizing: border-box; margin-right: 50px; width: 550px; float: right; font-size: 20px; line-height: 45px; text-align: justify;}
+#content .saftyCertmsg dt{ font-size: 30px; font-weight: 600; line-height: 60px; margin-bottom: 16px; text-align: center;}
+#content .saftyCertmsg span{}
+
+
+
+
+
+
+

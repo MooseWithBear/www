@@ -1,0 +1,60 @@
+.visual {  position: relative; background:url(../images/sub1_visual.jpg) 30% 30% no-repeat; width: 100%; height: 12.5rem;}
+
+
+#content span{}
+html #content h3 {font-size: 1.5625rem;}
+#content .vision span, #content .strategy span{font-size: .9375rem;}
+html #content p{ font-size: .9375rem; line-height: 2.5rem; text-align: center; margin: 10% 0;}
+#content strong{font-size: 1.25rem; line-height: 4.375rem; letter-spacing: 0.3em; font-weight: 300;}
+#content img {border-radius: .625rem;}
+section {margin:0 3.125%;box-sizing: border-box;}
+
+#content .mission .missionInner .missionBox{  width: 100%;   position: relative; }
+#content .mission .missionInner .missionBox .missionLeft{width: 60%; ;height: 100%; float: left; position: absolute; left: 0;; bottom: 0; }
+#content .mission .missionInner .missionBox .missionLeft h3{color: #fff; margin: 0; line-height: 0; position: absolute; top: 50%; left: 30%; text-align: center;}
+
+#content .mission .missionInner .missionBox .missionRight{width: 40%; height: 100%; border-radius: 0 .625rem .625rem 0; background: #043955;opacity: .5; position: absolute; right: 0; bottom: 0;}
+#content .mission .missionInner .missionBox .missionRight>div{width: 54.1%; height: 60%;
+                                                            position: absolute; border: .0625rem solid #fff; 
+                                                             top: 20%;right: 22.5%;}
+#content .missionTextbox{ display: flex; flex-direction: column; justify-content: space-around; color: #fff; width: 100%; height: 100%; text-align: center;}
+#content .missionTextbox strong {line-height: 2.4rem; font-size: 1rem; }
+#content .missionTextbox strong:nth-child(1) {letter-spacing: 0.09rem;}
+
+
+
+
+
+#content .upline::before{content: '';width: 3.4375rem ; height: .125rem; background: #000; 
+                        position: absolute; top: -6.25rem;left: 34.375rem;}
+#content .upline{position: relative;}
+
+
+
+
+
+#content .vision{}
+
+#content .vision h3{position: absolute; top: 8%; text-align: center; width: 100%;}
+#content .vision>div{border-radius: .625rem; position: relative;  width: 100%; min-height: 46.25rem;  background:url(../images/sub1_vision.jpg) 0 0 no-repeat}
+#content .vision .visionInner{width: 60%;margin: 0 auto; position: absolute; left: 20%; top: 25%;}
+#content .vision .visionInner>div{ color: #fff; width: 100%; position: relative;
+    height: 24.375rem;
+    border: .0625rem solid #fff;}
+    #content .vision .visionInner>div:nth-child(1) { background-color: #043955; opacity: 0.2; position: absolute; border: none; }
+#content .vision span{ width: 100%; text-align: center; display: block; line-height: 1.875rem; position: absolute; top: 60%;}
+#content .vision span:nth-child(2) {top: 70%;}
+
+
+
+#content .strategy {margin: 0; position: relative; }
+#content .strategy h3{text-shadow: none;}
+#content .strategy .strategyInner{ padding-bottom: 10%; height: 100%; position: relative; overflow: hidden;}
+#content .strategy .strategyInner>div{}
+#content .strategy .strategyInner ul{position: relative; justify-items: center; justify-content: space-between;grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; display: grid;  width: 100%; margin-top: 2.5rem; z-index: 2;  top: 0; }
+#content .strategy .strategyInner ul li {width: 94%; max-width:24.375rem;margin-bottom: 5%;}
+#content .strategy .strategyInner ul li img{ width: 50%; }
+
+#content .strategy .strategyInner ul li span{color: #000; display: block; text-align: center; margin-top: 5%;}
+#content .strategy .strategyBackground>img {position: absolute;}
+#footerArea {margin-top: 0;}

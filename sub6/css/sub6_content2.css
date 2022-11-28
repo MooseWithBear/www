@@ -1,0 +1,77 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+.recruitProcess.active path{animation: draw 2s ease-out forwards;}
+
+@keyframes draw {
+    to{stroke-dashoffset: 0;}
+}
+
+#content h3{ letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; margin-bottom: 90px;}
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+
+
+.recruitProcess{}
+.recruitProcess .recruitProcessInnerTop{}
+.recruitProcess .recruitProcessInnerTop ul{overflow: hidden;width: 1300px; position:relative; left: -50px; margin-bottom: 150px;}
+.recruitProcess .recruitProcessInnerTop ul li{position: relative; background: #666; border: 1px solid rgba(0, 0, 0, .3); background: #fff; box-sizing: border-box; width: 220px; height: 220px; float: left; margin: 25px; padding: 15.5px; border-radius: 50%;}
+.recruitProcess .recruitProcessInnerTop ul li:first-child{ margin-left: 0%;}
+.recruitProcess .recruitProcessInnerTop ul li:last-child{ margin-right: 0;}
+
+.recruitProcess .recruitProcessInnerTop ul li span{text-align: center;  display: block; margin: 30px 0 0 55px;  width: 80px; height: 80px;}
+.recruitProcess .recruitProcessInnerTop ul li span svg{padding-top: 5px;}
+
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(1) span svg path:nth-child(1){}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(1) span svg path:nth-child(2){}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(1) span svg path:nth-child(3){}
+
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(2) span svg path{}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(3) span svg path{}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(4) span svg path{}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(5) span svg path{}
+
+.recruitProcess .recruitProcessInnerTop ul li:before{
+    content: '\f054';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    left: -35px;
+    /* line-height: 200px; */
+}
+.recruitProcess .recruitProcessInnerTop ul li:nth-child(1):before{display: none;}
+
+
+
+.recruitProcess .recruitProcessInnerTop ul li strong{text-align: center; display: block; margin-top: 25px; font-size: 20px; letter-spacing: 0.03em;}
+
+
+.recruitProcess .recruitProcessInnerBottom{}
+.recruitProcess .recruitProcessInnerBottom ul{}
+.recruitProcess .recruitProcessInnerBottom>ul>li{margin-bottom: 100px;}
+.recruitProcess .recruitProcessInnerBottom>ul>li:last-child{margin-bottom: 250px;}
+
+
+
+.recruitProcess .recruitProcessInnerBottom ul li dl{}
+.recruitProcess .recruitProcessInnerBottom ul li dl dt{font-size: 1.625em; font-weight: 700; margin-bottom: 30px; letter-spacing: 0.03em;}
+.recruitProcess .recruitProcessInnerBottom ul li dl dd{font-size: 1.125em; line-height: 36px; margin-bottom: 10px;}
+
+
+.recruitProcess .recruitProcessInnerBottom ul li dl dd ul{}
+.recruitProcess .recruitProcessInnerBottom ul li ul li{font-size: 1.125em; line-height: 36px; color: #666;}
+.recruitProcess .recruitProcessInnerBottom ul li ul li::before{
+    content:"·";
+    font-size:15px;
+    color: #808080;
+    vertical-align:middle;
+    line-height:20px;
+    margin-right: 15px;
+}
+
+
+
+

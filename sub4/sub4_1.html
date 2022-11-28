@@ -1,0 +1,97 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍보센터-GS공지사항</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub4common.css">
+    <link rel="stylesheet" href="./css/sub4_content1.css">
+    <link rel="stylesheet" href="../sub1/common/css/sub_common_active.css">
+
+    <script src="https://kit.fontawesome.com/218900a9a2.js" crossorigin="anonymous"></script>
+    <script src="../common/js/prefixfree.min.js"></script>
+  
+</head>
+<body>
+  <? include "../sub1/common/sub_header.html" ?>
+
+  
+
+      <div class="main">
+        <h3>홍보센터</h3>
+      <div class="auroraBox">
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>        
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+        <div class="aurora"></div>
+      </div>
+    </div>
+
+    <div class="subNav">
+        <ul>
+            <li class="current"><a href="./sub4_1.html">GS파워소식</a></li>
+            <li><a href="./sub4_2.html">GS파워홍보실</a></li>
+
+            <!-- <li><a href="./sub2_4.html">???에너지사업</a></li> -->
+
+        </ul>
+    </div>
+    <article id="content">
+        <div class="titleArea">
+            <div class="lineMap">
+                <span><i class="fa-solid fa-house"></i> </span>&gt;
+                <span>홍보센터 </span>
+                &gt;<span> GS파워 공지사항</span>
+            </div>
+            <h2>NEWS</h2>
+        </div>
+
+      <!-- 콘텐츠 시작 -->
+      <div class="contentArea">
+
+
+        <div class="subSlogan">
+          <p>세계 수준의 친환경 에너지 기업</p>
+          <p>“사회적 책임(CSR)의 역할 수행을 통한 지속가능경영을 추구하여 항상 사랑받는</p>
+          <p>기업이 될 수 있도록 임직원 모두가 하나되어 최선의 노력을 경주하겠습니다.”</p>           
+        </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </article>
+
+
+
+
+          <!-- 푸터영역 시작 -->
+          <? include "../sub1/common/sub_footer.html" ?>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.subNav ul li{width: 50%;  }
+
+
+#content h3{text-shadow: none;}
+#content img{width: 100%;  border-radius: .9375rem ; }
+#content p{line-height: 1.875rem; font-size: 1rem; text-align: justify;}
+#content dt { font-size: 1.125rem; font-weight: 500; text-align: center; letter-spacing: -0.03rem; padding: 1rem 0 1rem; }
+#content dd {font-size: .875rem;line-height: 1.875rem;margin: 1%; text-align: justify; padding: 0 3%; padding-bottom: 1rem;}
+section {margin: 0 3.125%;}
+
+.conBox .videoPop {display: none; }
+.conBox .videoPop .iframeBox {width: 93.75%; margin: 0 3.125%;height: 25rem; position: relative; margin-top: 4.375rem; }
+.conBox .videoPop .popClose i {color: #000; font-size: 1.3rem; position: absolute; top: .9375rem; right: .9375rem;}
+.videoPop{background-color: #fff; position:fixed; left:0; top: 0; width: 100%; height: 100%; overflow-y:scroll;z-index: 300; }
+.videoPop::before{content:'유튜브 영상'; font-size: 1rem; position:fixed; left:0; top: 0; width: 100%; height: 3.125rem; line-height: 3.125rem; font-weight:700; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.15); text-align:center; letter-spacing:-0.065rem;}
+.videoPop a {display: block; position: absolute; top: 0; right: 0; padding: 3% 4%; font-size: 1.25rem;}
+.videoPop a i {position: relative; display: block; }
+#content .videoPop img {display: block; width: 93.75%;  margin: auto; margin-top: 4.375rem; overflow: hidden;} 
+
+.conBox .videoPop i {font-size: 4.375rem; background-size: 2.5rem;}
+
+/* .conBox ul {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;} */
+.conBox ul li {margin-bottom: 5%; position: relative; }
+/* .conBox ul li div {width: 100%; height: 100%; position: absolute; top: 0; right: 0; background: rgba(0, 0, 0, 0.3); } */
+.conBox a { display: flex; flex-direction: column; justify-content: center;}
+.conBox i { background:url(../images/whitebackground.webp) 50% 50% no-repeat; display: block; background-size: 2.5rem; font-size: 4.375rem; position: absolute; align-self: center; color: #ff0000; }
+.conBox dl {display: flex;  flex-direction: column; align-items: center;}
+.conBox dd {display: none;}
+

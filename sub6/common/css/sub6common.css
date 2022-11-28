@@ -1,0 +1,112 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+/* 서브페이지 공통영역 */
+.wrap{background: #fff;}
+.main{background: url(../images/sub6_main.webp); width: 2000px; height: 500px;position: relative; left: 50% ; top: 0; margin-left: -1000px; overflow: hidden;}
+.main h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    position: absolute;
+    left: 50%;
+    top: 250px;
+    margin-left: -90px;
+    background: #feaf00;
+    background: linear-gradient(to top, #f1b73b 0%, #ff834a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+.subNav{}
+.subNav ul{width: 1200px; margin: 0 auto; overflow: hidden;}
+.subNav ul li{float: left; width: 50% ; height: 70px; text-align: center;  margin-top: 10px; border: 1px solid #ddd; border-left: 0; border-bottom: 3px solid #1179f2; box-sizing: border-box;}
+.subNav ul li a{display: block; padding: 20px; font-size: 1.125em; font-weight: 500;}
+
+.subNav .current{border: none; }
+.subNav .current a{color: #1179f2;}
+.subNav ul li:first-child{border-radius: 10px 0 0 0; border-left: 1px solid #ddd;}
+.subNav ul li:last-child{border-radius: 0 10px 0 0;}
+.subNav ul li a:hover {color: #1179f2; }
+.subNav ul li a{ position: relative; border-right: 0;;}
+.subNav>ul .current a::after{    
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: -1px;
+    border: 3px solid #1179f2;
+    height: 70px;
+    z-index: 2;
+    background: transparent;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;} 
+    
+
+
+    #content .subSlogan p{font-size: 1.5625em; line-height: 60px; text-align: center;}
+    #content .subSlogan p:nth-child(1) { font-size: 2.5em;}
+    #content .subSlogan p:nth-child(2) { color:#666; margin: 40px 0 0 0;}
+    #content .subSlogan p:nth-child(3) { color:#666; margin: 0 0 80px 0;}
+
+
+
+#content{width: 1200px; margin: 0 auto;  }
+#content .titleArea{}
+#content .titleArea .lineMap{margin: 70px 0 20px 960px; color: #999;} 
+#content .titleArea .lineMap span:nth-child(3){color: #666;} 
+
+#content .titleArea h2{letter-spacing: 0.05em; position: relative; font-size: 4.375em; font-weight: 700; text-align: center; margin: 100px 0 130px; font-family: 'Titillium Web', sans-serif;}
+#content .titleArea h2::after{ content: ''; width: 3px; height: 60px; background: #000; display: block;
+                                position: absolute; bottom: -90px; left: 600px;   }
+
+#content .contentArea{}
+
+
+
+
+/*! fire animation */
+.fireBox { top: 57%; left: 1115px; position: relative; width: 65px; height:200px; overflow: hidden; }
+.fire {background: url(../images/fire2.svg)0 0 no-repeat; width: 3120px; height: 500px; transform: scale(0.5);
+    animation: fire 8s steps(24) infinite; position: absolute; bottom: -100px; left:-790px}
+@keyframes fire {
+    from{opacity: 1; }
+    to {background-position: -3120px 0; opacity: 1; }
+  }
+.fireBox span {opacity: 0; display: block; left: 40%; bottom: 50%; position: absolute; border-radius: 50% 0; width: 5px;height: 5px; background-color: #fe704d; animation: particles 3s ease-in-out infinite; ;}
+.fireBox span:nth-child(1) {left: 20%; animation-duration: 4s; animation-delay: 0.3s;background-color: #fa2d2d; }
+.fireBox span:nth-child(2) {left: 28%;animation-duration: 1.3s; animation-delay: 1.3s;}
+.fireBox span:nth-child(3) {left: 17%;animation-duration: 2.3s; animation-delay: 2s;background-color: #fa2d2d; }
+.fireBox span:nth-child(4) {left: 26%;animation-duration: 3.5s; animation-delay: 2.3s;background-color:red}
+.fireBox span:nth-child(5) {left: 58%;animation-duration: 4.7s; animation-delay: 1.6s;background-color: #cec452; }
+.fireBox span:nth-child(6) {left: 41%;animation-duration: 5.7s; animation-delay: 3.1s;background-color:red}
+.fireBox span:nth-child(7) {left: 37%;animation-duration: 2.7s; animation-delay: 2.4s;background-color: #cec452; }
+.fireBox span:nth-child(8) {left: 54%;animation-duration: 3.7s; animation-delay: 4.1s;}
+.fireBox span:nth-child(9) {left: 75%;animation-duration: 1.7s; animation-delay: 0.1s;background-color: #e3d212ef;}
+.fireBox span:nth-child(10) {left: 68%;animation-duration: 2.3s; animation-delay: 0.6s;}
+.fireBox span:nth-child(11) {left: 34%;animation-duration: 1.5s; animation-delay: 0.8s;background-color: #cec452;}
+@keyframes particles {
+    0%{opacity: 0.7;}
+    20%{opacity: 0.4;}
+    70%{opacity: 0.3;}
+    to {transform: translateY(-200px) scale(0.3) rotate(355deg) skew(60deg, 50deg); opacity: 0;}
+}
+
+/*! leaf */
+.main .leafBox {display: block; position: absolute;  width: 2000px;height: 500px; animation: wind 4s alternate infinite;
+    transform-origin: right bottom}
+@keyframes wind {
+    50% {transform: rotate(1.5deg); }
+    100% {transform: rotate(-1.5deg); }
+}
+.main .leafBox .leaf { animation: skew 4s linear infinite; right: 0; bottom: 0; display: block; position: absolute; background-color: yellow; background: url(../images/sub6_main_leaf2.webp) 0 0 no-repeat; width: 500px; height: 380px;}
+@keyframes skew { 
+    40% {transform: scale(1.01) skewx(-1deg) rotateX(-4deg); transform-origin:bottom;}
+    80% {transform: scale(0.99)skewx(1deg)rotateX(4deg); transform-origin:bottom;;}
+    100% {transform: scale(1.00)skewx(0deg);}
+
+}

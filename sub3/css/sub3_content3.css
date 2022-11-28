@@ -1,0 +1,28 @@
+.main .ducks{bottom: -40px; right: 1300px;}
+#content h3{ letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; margin-bottom: 90px;}
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+#content .ceoMsgbox p:first-child{margin-top: -10px;}
+
+
+#content .csr .csrInner .csrTab ul li {width: 33.3%;}
+
+
+#content .csr .contentBox div {display: none;}
+#content .csr .csrTitle{font-size: 40px; font-weight: 700; margin: 50px 0; }
+
+#content .csr img{border-radius: 30px;}
+#content .csr .csrText{margin-bottom: 80px; background: #f7f9fa; padding: 60px 60px; border-radius: 30px;}
+#content .csr .content ul{overflow: hidden;}
+#content .csr .content ul li{position: relative; margin-bottom: 30px; overflow: hidden; width: 1200px; height: 600px;}
+#content .csr .content dl{width: 400px; text-align: justify;}
+#content .csr .content dt{margin-bottom: 20px;font-size: 26px;  font-weight: 700; padding-top: 110px; }
+#content .csr .content dd{font-size: 18px; line-height: 36px; color: #666;}
+
+#content .csr .content ul li:nth-of-type(odd){float: right; overflow: hidden;}
+#content .csr .content ul li:nth-of-type(odd) img{float: left;}
+#content .csr .content ul li:nth-of-type(odd) dl{float: right;  padding-right: 60px; }
+
+#content .csr .content ul li:nth-of-type(2n) img{float: right;}
+#content .csr .content ul li:nth-of-type(2n) dl{float: left;  padding-left: 60px;}
+
+

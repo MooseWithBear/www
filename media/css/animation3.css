@@ -1,0 +1,1557 @@
+.aniBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mario {
+  transition: all 0.5s cubic-beziercubic-bezier(0.1, 0.7, 1, 0.1);
+  perspective: 600px;
+  position: absolute;
+}
+
+.mario div {
+  transition: all 1s cubic-beziercubic-bezier(0.1, 0.7, 1, 0.1);
+  position: static;
+  width: 15px;
+  height: 15px;
+}
+
+.c-logo {
+  width: 765px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(51, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+.c-logo > div:nth-child(1) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(2) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(3) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(4) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(5) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(6) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(7) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(8) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(9) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(10) {
+  background: transparent;
+}
+.c-logo > div:nth-child(11) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(12) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(13) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(14) {
+  background: transparent;
+}
+.c-logo > div:nth-child(15) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(16) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(17) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(18) {
+  background: transparent;
+}
+.c-logo > div:nth-child(19) {
+  background: transparent;
+}
+.c-logo > div:nth-child(20) {
+  background: transparent;
+}
+.c-logo > div:nth-child(21) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(22) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(23) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(24) {
+  background: transparent;
+}
+.c-logo > div:nth-child(25) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(26) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(27) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(28) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(29) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(30) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(31) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(32) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(33) {
+  background: transparent;
+}
+.c-logo > div:nth-child(34) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(35) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(36) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(37) {
+  background: transparent;
+}
+.c-logo > div:nth-child(38) {
+  background: transparent;
+}
+.c-logo > div:nth-child(39) {
+  background: transparent;
+}
+.c-logo > div:nth-child(40) {
+  background: transparent;
+}
+.c-logo > div:nth-child(41) {
+  background: transparent;
+}
+.c-logo > div:nth-child(42) {
+  background: transparent;
+}
+.c-logo > div:nth-child(43) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(44) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(45) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(46) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(47) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(48) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(49) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(50) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(51) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(52) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(53) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(54) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(55) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(56) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(57) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(58) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(59) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(60) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(61) {
+  background: transparent;
+}
+.c-logo > div:nth-child(62) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(63) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(64) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(65) {
+  background: transparent;
+}
+.c-logo > div:nth-child(66) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(67) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(68) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(69) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(70) {
+  background: transparent;
+}
+.c-logo > div:nth-child(71) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(72) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(73) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(74) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(75) {
+  background: transparent;
+}
+.c-logo > div:nth-child(76) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(77) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(78) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(79) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(80) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(81) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(82) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(83) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(84) {
+  background: transparent;
+}
+.c-logo > div:nth-child(85) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(86) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(87) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(88) {
+  background: transparent;
+}
+.c-logo > div:nth-child(89) {
+  background: transparent;
+}
+.c-logo > div:nth-child(90) {
+  background: transparent;
+}
+.c-logo > div:nth-child(91) {
+  background: transparent;
+}
+.c-logo > div:nth-child(92) {
+  background: transparent;
+}
+.c-logo > div:nth-child(93) {
+  background: transparent;
+}
+.c-logo > div:nth-child(94) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(95) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(96) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(97) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(98) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(99) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(100) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(101) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(102) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(103) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(104) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(105) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(106) {
+  background: transparent;
+}
+.c-logo > div:nth-child(107) {
+  background: transparent;
+}
+.c-logo > div:nth-child(108) {
+  background: transparent;
+}
+.c-logo > div:nth-child(109) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(110) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(111) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(112) {
+  background: transparent;
+}
+.c-logo > div:nth-child(113) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(114) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(115) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(116) {
+  background: transparent;
+}
+.c-logo > div:nth-child(117) {
+  background: transparent;
+}
+.c-logo > div:nth-child(118) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(119) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(120) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(121) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(122) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(123) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(124) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(125) {
+  background: transparent;
+}
+.c-logo > div:nth-child(126) {
+  background: transparent;
+}
+.c-logo > div:nth-child(127) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(128) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(129) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(130) {
+  background: transparent;
+}
+.c-logo > div:nth-child(131) {
+  background: transparent;
+}
+.c-logo > div:nth-child(132) {
+  background: transparent;
+}
+.c-logo > div:nth-child(133) {
+  background: transparent;
+}
+.c-logo > div:nth-child(134) {
+  background: transparent;
+}
+.c-logo > div:nth-child(135) {
+  background: transparent;
+}
+.c-logo > div:nth-child(136) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(137) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(138) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(139) {
+  background: transparent;
+}
+.c-logo > div:nth-child(140) {
+  background: transparent;
+}
+.c-logo > div:nth-child(141) {
+  background: transparent;
+}
+.c-logo > div:nth-child(142) {
+  background: transparent;
+}
+.c-logo > div:nth-child(143) {
+  background: transparent;
+}
+.c-logo > div:nth-child(144) {
+  background: transparent;
+}
+.c-logo > div:nth-child(145) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(146) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(147) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(148) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(149) {
+  background: transparent;
+}
+.c-logo > div:nth-child(150) {
+  background: transparent;
+}
+.c-logo > div:nth-child(151) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(152) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(153) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(154) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(155) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(156) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(157) {
+  background: transparent;
+}
+.c-logo > div:nth-child(158) {
+  background: transparent;
+}
+.c-logo > div:nth-child(159) {
+  background: transparent;
+}
+.c-logo > div:nth-child(160) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(161) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(162) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(163) {
+  background: transparent;
+}
+.c-logo > div:nth-child(164) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(165) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(166) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(167) {
+  background: transparent;
+}
+.c-logo > div:nth-child(168) {
+  background: transparent;
+}
+.c-logo > div:nth-child(169) {
+  background: transparent;
+}
+.c-logo > div:nth-child(170) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(171) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(172) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(173) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(174) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(175) {
+  background: transparent;
+}
+.c-logo > div:nth-child(176) {
+  background: transparent;
+}
+.c-logo > div:nth-child(177) {
+  background: transparent;
+}
+.c-logo > div:nth-child(178) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(179) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(180) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(181) {
+  background: transparent;
+}
+.c-logo > div:nth-child(182) {
+  background: transparent;
+}
+.c-logo > div:nth-child(183) {
+  background: transparent;
+}
+.c-logo > div:nth-child(184) {
+  background: transparent;
+}
+.c-logo > div:nth-child(185) {
+  background: transparent;
+}
+.c-logo > div:nth-child(186) {
+  background: transparent;
+}
+.c-logo > div:nth-child(187) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(188) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(189) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(190) {
+  background: transparent;
+}
+.c-logo > div:nth-child(191) {
+  background: transparent;
+}
+.c-logo > div:nth-child(192) {
+  background: transparent;
+}
+.c-logo > div:nth-child(193) {
+  background: transparent;
+}
+.c-logo > div:nth-child(194) {
+  background: transparent;
+}
+.c-logo > div:nth-child(195) {
+  background: transparent;
+}
+.c-logo > div:nth-child(196) {
+  background: transparent;
+}
+.c-logo > div:nth-child(198) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(199) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(200) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(201) {
+  background: transparent;
+}
+.c-logo > div:nth-child(202) {
+  background: transparent;
+}
+.c-logo > div:nth-child(203) {
+  background: transparent;
+}
+.c-logo > div:nth-child(204) {
+  background: transparent;
+}
+.c-logo > div:nth-child(205) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(206) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(207) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(208) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(209) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(210) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(211) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(212) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(213) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(214) {
+  background: transparent;
+}
+.c-logo > div:nth-child(215) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(216) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(217) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(218) {
+  background: transparent;
+}
+.c-logo > div:nth-child(219) {
+  background: transparent;
+}
+.c-logo > div:nth-child(220) {
+  background: transparent;
+}
+.c-logo > div:nth-child(221) {
+  background: transparent;
+}
+.c-logo > div:nth-child(222) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(223) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(224) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(225) {
+  background: transparent;
+}
+.c-logo > div:nth-child(226) {
+  background: transparent;
+}
+.c-logo > div:nth-child(227) {
+  background: transparent;
+}
+.c-logo > div:nth-child(228) {
+  background: transparent;
+}
+.c-logo > div:nth-child(229) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(230) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(231) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(232) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(233) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(234) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(235) {
+  background: transparent;
+}
+.c-logo > div:nth-child(236) {
+  background: transparent;
+}
+.c-logo > div:nth-child(237) {
+  background: transparent;
+}
+.c-logo > div:nth-child(238) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(239) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(240) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(241) {
+  background: transparent;
+}
+.c-logo > div:nth-child(242) {
+  background: transparent;
+}
+.c-logo > div:nth-child(243) {
+  background: transparent;
+}
+.c-logo > div:nth-child(244) {
+  background: transparent;
+}
+.c-logo > div:nth-child(245) {
+  background: transparent;
+}
+.c-logo > div:nth-child(246) {
+  background: transparent;
+}
+.c-logo > div:nth-child(247) {
+  background: transparent;
+}
+.c-logo > div:nth-child(248) {
+  background: transparent;
+}
+.c-logo > div:nth-child(249) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(250) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(251) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(252) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(253) {
+  background: transparent;
+}
+.c-logo > div:nth-child(254) {
+  background: transparent;
+}
+.c-logo > div:nth-child(255) {
+  background: transparent;
+}
+.c-logo > div:nth-child(256) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(257) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(258) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(259) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(260) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(261) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(262) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(263) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(264) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(265) {
+  background: transparent;
+}
+.c-logo > div:nth-child(266) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(267) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(268) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(269) {
+  background: transparent;
+}
+.c-logo > div:nth-child(270) {
+  background: transparent;
+}
+.c-logo > div:nth-child(271) {
+  background: transparent;
+}
+.c-logo > div:nth-child(272) {
+  background: transparent;
+}
+.c-logo > div:nth-child(273) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(274) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(275) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(276) {
+  background: transparent;
+}
+.c-logo > div:nth-child(277) {
+  background: transparent;
+}
+.c-logo > div:nth-child(278) {
+  background: transparent;
+}
+.c-logo > div:nth-child(279) {
+  background: transparent;
+}
+.c-logo > div:nth-child(280) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(281) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(282) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(283) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(284) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(285) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(286) {
+  background: transparent;
+}
+.c-logo > div:nth-child(287) {
+  background: transparent;
+}
+.c-logo > div:nth-child(288) {
+  background: transparent;
+}
+.c-logo > div:nth-child(289) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(290) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(291) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(292) {
+  background: transparent;
+}
+.c-logo > div:nth-child(293) {
+  background: transparent;
+}
+.c-logo > div:nth-child(294) {
+  background: transparent;
+}
+.c-logo > div:nth-child(295) {
+  background: transparent;
+}
+.c-logo > div:nth-child(296) {
+  background: transparent;
+}
+.c-logo > div:nth-child(297) {
+  background: transparent;
+}
+.c-logo > div:nth-child(298) {
+  background: transparent;
+}
+.c-logo > div:nth-child(299) {
+  background: transparent;
+}
+.c-logo > div:nth-child(300) {
+  background: transparent;
+}
+.c-logo > div:nth-child(301) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(302) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(303) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(304) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(305) {
+  background: transparent;
+}
+.c-logo > div:nth-child(306) {
+  background: transparent;
+}
+.c-logo > div:nth-child(307) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(308) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(309) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(310) {
+  background: transparent;
+}
+.c-logo > div:nth-child(311) {
+  background: transparent;
+}
+.c-logo > div:nth-child(312) {
+  background: transparent;
+}
+.c-logo > div:nth-child(313) {
+  background: transparent;
+}
+.c-logo > div:nth-child(314) {
+  background: transparent;
+}
+.c-logo > div:nth-child(315) {
+  background: transparent;
+}
+.c-logo > div:nth-child(316) {
+  background: transparent;
+}
+.c-logo > div:nth-child(317) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(318) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(319) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(320) {
+  background: transparent;
+}
+.c-logo > div:nth-child(321) {
+  background: transparent;
+}
+.c-logo > div:nth-child(322) {
+  background: transparent;
+}
+.c-logo > div:nth-child(323) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(324) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(325) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(326) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(327) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(328) {
+  background: transparent;
+}
+.c-logo > div:nth-child(329) {
+  background: transparent;
+}
+.c-logo > div:nth-child(330) {
+  background: transparent;
+}
+.c-logo > div:nth-child(331) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(332) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(333) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(334) {
+  background: transparent;
+}
+.c-logo > div:nth-child(335) {
+  background: transparent;
+}
+.c-logo > div:nth-child(336) {
+  background: transparent;
+}
+.c-logo > div:nth-child(337) {
+  background: transparent;
+}
+.c-logo > div:nth-child(338) {
+  background: transparent;
+}
+.c-logo > div:nth-child(339) {
+  background: transparent;
+}
+.c-logo > div:nth-child(340) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(341) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(342) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(343) {
+  background: transparent;
+}
+.c-logo > div:nth-child(344) {
+  background: transparent;
+}
+.c-logo > div:nth-child(345) {
+  background: transparent;
+}
+.c-logo > div:nth-child(346) {
+  background: transparent;
+}
+.c-logo > div:nth-child(347) {
+  background: transparent;
+}
+.c-logo > div:nth-child(348) {
+  background: transparent;
+}
+.c-logo > div:nth-child(349) {
+  background: transparent;
+}
+.c-logo > div:nth-child(350) {
+  background: transparent;
+}
+.c-logo > div:nth-child(351) {
+  background: transparent;
+}
+.c-logo > div:nth-child(352) {
+  background: transparent;
+}
+.c-logo > div:nth-child(353) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(354) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(355) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(356) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(357) {
+  background: transparent;
+}
+.c-logo > div:nth-child(358) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(359) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(360) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(361) {
+  background: transparent;
+}
+.c-logo > div:nth-child(362) {
+  background: transparent;
+}
+.c-logo > div:nth-child(363) {
+  background: transparent;
+}
+.c-logo > div:nth-child(364) {
+  background: transparent;
+}
+.c-logo > div:nth-child(365) {
+  background: transparent;
+}
+.c-logo > div:nth-child(366) {
+  background: transparent;
+}
+.c-logo > div:nth-child(367) {
+  background: transparent;
+}
+.c-logo > div:nth-child(368) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(369) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(370) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(371) {
+  background: transparent;
+}
+.c-logo > div:nth-child(372) {
+  background: transparent;
+}
+.c-logo > div:nth-child(373) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(374) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(375) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(376) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(377) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(378) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(379) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(380) {
+  background: transparent;
+}
+.c-logo > div:nth-child(381) {
+  background: transparent;
+}
+.c-logo > div:nth-child(382) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(383) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(384) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(385) {
+  background: transparent;
+}
+.c-logo > div:nth-child(386) {
+  background: transparent;
+}
+.c-logo > div:nth-child(387) {
+  background: transparent;
+}
+.c-logo > div:nth-child(388) {
+  background: transparent;
+}
+.c-logo > div:nth-child(389) {
+  background: transparent;
+}
+.c-logo > div:nth-child(390) {
+  background: transparent;
+}
+.c-logo > div:nth-child(391) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(392) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(393) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(394) {
+  background: transparent;
+}
+.c-logo > div:nth-child(395) {
+  background: transparent;
+}
+.c-logo > div:nth-child(396) {
+  background: transparent;
+}
+.c-logo > div:nth-child(397) {
+  background: transparent;
+}
+.c-logo > div:nth-child(398) {
+  background: transparent;
+}
+.c-logo > div:nth-child(399) {
+  background: transparent;
+}
+.c-logo > div:nth-child(400) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(401) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(402) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(403) {
+  background: transparent;
+}
+.c-logo > div:nth-child(404) {
+  background: transparent;
+}
+.c-logo > div:nth-child(405) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(406) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(407) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(408) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(409) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(410) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(411) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(412) {
+  background: transparent;
+}
+.c-logo > div:nth-child(413) {
+  background: transparent;
+}
+.c-logo > div:nth-child(414) {
+  background: transparent;
+}
+.c-logo > div:nth-child(415) {
+  background: transparent;
+}
+.c-logo > div:nth-child(416) {
+  background: transparent;
+}
+.c-logo > div:nth-child(417) {
+  background: transparent;
+}
+.c-logo > div:nth-child(418) {
+  background: transparent;
+}
+.c-logo > div:nth-child(419) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(420) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(421) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(422) {
+  background: transparent;
+}
+.c-logo > div:nth-child(423) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(424) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(425) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(426) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(427) {
+  background: transparent;
+}
+.c-logo > div:nth-child(428) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(429) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(430) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(431) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(432) {
+  background: transparent;
+}
+.c-logo > div:nth-child(433) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(434) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(435) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(436) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(437) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(438) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(439) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(440) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(441) {
+  background: transparent;
+}
+.c-logo > div:nth-child(442) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(443) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(444) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(445) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(446) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(447) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(448) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(449) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(450) {
+  background: transparent;
+}
+.c-logo > div:nth-child(451) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(452) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(453) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(454) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(455) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(456) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(457) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(458) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(459) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(460) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(461) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(462) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(463) {
+  background: transparent;
+}
+.c-logo > div:nth-child(464) {
+  background: transparent;
+}
+.c-logo > div:nth-child(465) {
+  background: transparent;
+}
+.c-logo > div:nth-child(466) {
+  background: transparent;
+}
+.c-logo > div:nth-child(467) {
+  background: transparent;
+}
+.c-logo > div:nth-child(468) {
+  background: transparent;
+}
+.c-logo > div:nth-child(469) {
+  background: transparent;
+}
+.c-logo > div:nth-child(470) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(471) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(472) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(473) {
+  background: transparent;
+}
+.c-logo > div:nth-child(474) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(475) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(476) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(477) {
+  background: transparent;
+}
+.c-logo > div:nth-child(478) {
+  background: transparent;
+}
+.c-logo > div:nth-child(479) {
+  background: transparent;
+}
+.c-logo > div:nth-child(480) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(481) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(482) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(483) {
+  background: transparent;
+}
+.c-logo > div:nth-child(484) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(485) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(486) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(487) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(488) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(489) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(490) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(491) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(492) {
+  background: transparent;
+}
+.c-logo > div:nth-child(493) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(494) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(495) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(496) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(497) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(498) {
+  background: #2491f1;
+}
+.c-logo > div:nth-child(499) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(500) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(501) {
+  background: transparent;
+}
+.c-logo > div:nth-child(502) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(503) {
+  background: #31dafc;
+}
+.c-logo > div:nth-child(504) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(505) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(506) {
+  background: #48f0fc;
+}
+.c-logo > div:nth-child(507) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(508) {
+  background: #207fe0;
+}
+.c-logo > div:nth-child(509) {
+  background: #14418d;
+}
+.c-logo > div:nth-child(510) {
+  background: #207fe0;
+}
+
+/*# sourceMappingURL=animation3.css.map */

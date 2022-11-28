@@ -1,0 +1,37 @@
+
+#content{}
+#content img{margin-bottom: 70px; margin-left: 5px;}
+
+#content .history{width: 100%; margin-bottom: 250px; overflow: hidden;}
+#content .history .historyInner{}
+#content .history .historyInner .historyTab ul li a{ position: relative;font-size: 1.125em; font-weight: 500; letter-spacing: 0.05em;font-family: 'Lato', sans-serif;  display: block; padding: 20px 20px;}
+
+#content .history .historyInner .yearBox{position: relative; float: left; margin-top: 60px; }
+#content .history .historyInner .yearBox .yearSlogan{float: left; width: 680px;}
+#content .history .historyInner .yearBox .yearSlogan p{opacity: 0; margin-top: 50px; width: 360px;font-size: 2.5em; font-weight: 700; line-height: 75px;}
+#content .history .historyInner #yearsBox2022.yearBox p {opacity: 1;}
+#content .history .historyInner .yearBox .details{float:right; width: 520px;}
+#content .history .historyInner .yearBox .details dl{}
+#content .history .historyInner .yearBox .details dl dt{margin: 60px 0 30px 0; font-size: 2.5em; font-weight: 700; font-family: 'Lato', sans-serif;}
+#content .history .historyInner .yearBox .details dl dd{ margin-bottom: 20px; line-height: 30px; font-size: 1.25em;}
+#content .history .historyInner .yearBox .details dl dd span{ margin-right: 30px; font-size: 20px; font-weight: 700; font-family: 'Lato', sans-serif;} 
+#content .history .historyInner .yearBox .details .linegap{font-weight: normal; margin-left: 54px;}
+
+.wrap #content .contentTab.historyTab li:nth-child(1):hover{background: #1877f2;}
+.wrap #content .contentTab.historyTab li:nth-child(2):hover{background: #0cb9c7;}
+.wrap #content .contentTab.historyTab li:nth-child(3):hover{background: #ff6f40;}
+.wrap #content .contentTab.historyTab li:nth-child(4):hover{background: #000c13;}
+
+/* 
+.pallImgBox {position: absolute;  bottom: 0px;}
+.pallImgBox div{width:60px; height: 30px; position: absolute; z-index: 100; bottom: 0; }
+
+.pallImgBox div:nth-child(1) {left: 0px;}
+.pallImgBox div:nth-child(2) {left: 70px; }
+.pallImgBox div:nth-child(3) {left: 140px; }
+.pallImgBox div:nth-child(4) {left: 300px; }
+
+.pall1 div{ background: #1179f2;}
+.pall2 div{ background: #0cb9c7;}
+.pall3 div { background: #ff6f40;}
+.pall4 div{ background: #000;} */

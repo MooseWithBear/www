@@ -1,0 +1,59 @@
+/* #content .titleArea .lineMap {margin: 70px 0 20px 1000px;} */
+#content .titleArea .lineMap{margin-left: 965px;}
+#content h3{ letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; margin-bottom: 90px;}
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+/* #content img{border-radius: 30px;} */
+#content .ceoMsgbox p:first-child{margin-top: -10px;}
+
+
+#content{}
+#content .overview{}
+
+#content .overview ul{overflow: hidden; width: 1280px;position: relative; left: -0px; }
+#content .overview ul li{width: 580px; float: left;   left: 0; margin: 0 30px 0 30px;}
+
+#content .overview ul li img{border-radius: 20px;}
+
+#content .overview ul li:nth-child(1){margin-left: 0;}
+#content .overview ul li:nth-child(2){margin-right: 0;}
+#content .overview ul li:nth-child(3){}
+
+
+#content .overview ul li dl {width: 560px; padding: 0 5px 0 0; margin-bottom: 220px;}
+#content .overview ul li dl dt{font-size: 26px; margin: 42px 0 42px 0; font-weight: 700; }
+#content .overview ul li dl dd{font-family: 'Lato', sans-serif;font-size: 18px; line-height: 36px; color: #666; text-align: justify; letter-spacing: -0.023em; padding-right: 10px;}
+
+
+#content .overview .overseas{}
+
+
+
+
+#content .hydroBox {}
+#content .hydroImgbox {width: 2000px; height: 500px;  margin-left: -400px;}
+#content .hydroImgbox>div{width: 1200px; height: 500px; margin: 0 auto; border-radius: 30px; background: url(../images/content3/hydbg.webp)-80px 0 no-repeat;}
+
+#content .hydroMsgbox{margin-top: 40px; margin-bottom: 200px;}
+
+#content .hyd{}
+#content .hydroMsgbox p{ margin:60px 0 100px 0;}
+
+
+#content .hyd dl{margin: 210px 0 0 30px; width: 380px; height: 130px; }
+#content .hyd01 dl, #content .hyd03 dl{margin-left: 115px;}
+#content .hyd dl dt{font-size: 32px; font-weight: 700; ;}
+#content .hyd dl dd{line-height: 2; font-size: 18px; color: #666; text-align: justify; margin-top: 40px;}
+
+.hyd01, .hyd02, .hyd03{margin-bottom: 130px; overflow: hidden; }
+/* overflow: hidden; */
+.hyd01{margin-top: 160px;}
+.hyd02{margin-bottom: 230px;}
+
+.hydlast{width: 600px; height: 550px; float: left;}
+.hyd02 .hydlast{float: left;}
+
+#content .hyd .hyd01{}
+#content .hyd .hydImg{float:left;}
+#content .hyd .hydImgleft{float: right;}
+
+

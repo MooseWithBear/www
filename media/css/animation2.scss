@@ -1,0 +1,382 @@
+ 
+ $c-pacman__dimension:          20px !default;
+ $c-pacman__columns:            16 !default;
+ $c-pacman__rows:               16 !default;
+ $c-pacman__gap:                0px !default;
+
+ 
+ $c-pacman__width:              $c-pacman__dimension * $c-pacman__columns !default;
+ $c-pacman__height:             $c-pacman__dimension * $c-pacman__rows !default;
+
+//  
+ $c-pacman__colors--w:          transparent !default;
+ $c-pacman__colors--y:          #f7e439 !default;
+ $c-pacman__colors--b:          #6e3110 !default;
+ $c-pacman__colors--p:          #fc28fc !default;
+ $c-pacman__colors--e:          #0c24fb !default;
+ $c-pacman__colors--E:          #fff !default;
+
+
+
+ $c-pacman__colors : (
+    'w':    $c-pacman__colors--w,
+    'y':    $c-pacman__colors--y,
+    'b':    $c-pacman__colors--b,
+    'p':    $c-pacman__colors--p,
+    'e':    $c-pacman__colors--e,
+    'E':    $c-pacman__colors--E
+  ) !default;
+
+ $c-pacman__cells : (
+ // '1','2','3',   '4','5','6',   '7','8','9',   '0','1','2',   '3','4','5',   '6',
+    'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+    'w','w','w',   'w','w','w',   'b','b','b',   'b','b','w',   'w','w','w',   'w',
+    'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'b','w','w',   'w',
+    'w','w','w',   'b','y','y',   'y','y','y',   'y','y','y',   'y','b','w',   'w',
+  
+    'w','w','b',   'y','y','y',   'y','y','y',   'b','y','y',   'y','y','b',   'w',
+    'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+    'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'b','b','w',   'w',
+  
+    'w','b','y',   'y','y','y',   'y','y','y',   'b','b','b',   'w','w','w',   'w',
+    'w','b','y',   'y','y','y',   'b','b','b',   'w','w','w',   'w','w','w',   'w',
+    'w','b','y',   'y','y','y',   'y','y','y',   'b','b','b',   'w','w','w',   'w',
+  
+    'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'b','b','w',   'w',
+    'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+    'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+  
+    'w','w','w',   'b','y','y',   'y','y','y',   'y','y','y',   'y','b','w',   'w',
+    'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'b','w','w',   'w',
+    'w','w','w',   'w','w','w',   'b','b','b',   'b','b','w',   'w','w','w',   'w',
+  
+   ) !default;
+
+   $c-pacman__positions: length($c-pacman__cells);
+
+
+
+   $c-pacman__cells_01 : (
+    // '1','2','3',   '4','5','6',   '7','8','9',   '0','1','2',   '3','4','5',   '6',
+       'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+     
+       'w','w','w',   'w','w','w',   'b','b','b',   'b','b','w',   'w','w','w',   'w',
+       'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'b','w','w',   'w',
+       'w','w','w',   'b','y','y',   'y','y','y',   'y','y','y',   'y','b','w',   'w',
+     
+       'w','w','b',   'y','y','y',   'y','y','y',   'b','y','y',   'y','y','b',   'w',
+       'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+       'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','y',   'b',
+     
+       'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'b',
+       'w','b','y',   'y','y','y',   'y','b','b',   'b','b','b',   'b','b','b',   'w',
+       'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'b',
+     
+       'w','b','y',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','y',   'b',
+       'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+       'w','w','b',   'y','y','y',   'y','y','y',   'y','y','y',   'y','y','b',   'w',
+     
+       'w','w','w',   'b','y','y',   'y','y','y',   'y','y','y',   'y','b','w',   'w',
+       'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'b','w','w',   'w',
+       'w','w','w',   'w','w','w',   'b','b','b',   'b','b','w',   'w','w','w',   'w',
+     
+      ) !default;
+   
+      $c-pacman__positions: length($c-pacman__cells_01);
+   
+
+
+      $c-pacman__cells_02 : (
+        // '1','2','3',   '4','5','6',   '7','8','9',   '0','1','2',   '3','4','5',   '6',
+           'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+         
+           'w','w','w',   'w','w','w',   'b','b','b',   'b','b','w',   'w','w','w',   'w',
+           'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'w','w','w',   'w',
+           'w','w','w',   'b','y','y',   'y','b','y',   'y','y','b',   'w','w','w',   'w',
+         
+           'w','w','b',   'y','y','y',   'y','y','y',   'y','b','w',   'w','w','w',   'w',
+           'w','w','b',   'y','y','y',   'y','y','y',   'b','w','w',   'w','w','w',   'w',
+           'w','b','y',   'y','y','y',   'y','y','b',   'w','w','w',   'w','w','w',   'w',
+         
+           'w','b','y',   'y','y','y',   'y','b','w',   'w','w','w',   'w','w','w',   'w',
+           'w','b','y',   'y','y','y',   'b','w','w',   'w','w','w',   'w','w','w',   'w',
+           'w','b','y',   'y','y','y',   'y','b','w',   'w','w','w',   'w','w','w',   'w',
+         
+           'w','b','y',   'y','y','y',   'y','y','b',   'w','w','w',   'w','w','w',   'w',
+           'w','w','b',   'y','y','y',   'y','y','y',   'b','w','w',   'w','w','w',   'w',
+           'w','w','b',   'y','y','y',   'y','y','y',   'y','b','w',   'w','w','w',   'w',
+         
+           'w','w','w',   'b','y','y',   'y','y','y',   'y','y','b',   'w','w','w',   'w',
+           'w','w','w',   'w','b','b',   'y','y','y',   'y','y','b',   'w','w','w',   'w',
+           'w','w','w',   'w','w','w',   'b','b','b',   'b','b','',   'w','w','w',   'w',
+         
+          ) !default;
+       
+          $c-pacman__positions: length($c-pacman__cells_02);
+       
+
+        $c-pacman__cells_pinky : (
+         // '1','2','3',   '4','5','6',   '7','8','9',   '0','1','2',   '3','4','5',   '6',
+            'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+        
+            'w','w','w',   'w','w','w',   'p','p','p',   'p','w','w',   'w','w','w',   'w',
+            'w','w','w',   'w','p','p',   'p','p','p',   'p','p','p',   'w','w','w',   'w',
+            'w','w','w',   'p','p','p',   'p','p','p',   'p','p','p',   'p','w','w',   'w',
+        
+            'w','w','p',   'p','p','E',   'E','p','p',   'p','p','E',   'E','p','w',   'w',
+            'w','w','p',   'p','E','E',   'E','E','p',   'p','E','E',   'E','E','w',   'w',
+            'w','w','p',   'p','E','E',   'e','e','p',   'p','E','E',   'e','e','w',   'w',
+        
+            'w','p','p',   'p','E','E',   'e','e','p',   'p','E','E',   'e','e','p',   'w',
+            'w','p','p',   'p','p','E',   'E','p','p',   'p','p','E',   'E','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+        
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+        
+            'w','p','p',   'p','p','w',   'p','p','p',   'p','w','p',   'p','p','p',   'w',
+            'w','w','p',   'p','w','w',   'w','p','p',   'w','w','w',   'p','p','w',   'w',
+            'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+        ) !default;
+        $c-pacman__positions: length($c-pacman__cells_pinky);
+
+
+        $c-pacman__cells_pinky_2 : (
+         // '1','2','3',   '4','5','6',   '7','8','9',   '0','1','2',   '3','4','5',   '6',
+            'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+        
+            'w','w','w',   'w','w','w',   'p','p','p',   'p','w','w',   'w','w','w',   'w',
+            'w','w','w',   'w','p','p',   'p','p','p',   'p','p','p',   'w','w','w',   'w',
+            'w','w','w',   'p','p','p',   'p','p','p',   'p','p','p',   'p','w','w',   'w',
+        
+            'w','w','p',   'p','p','E',   'E','p','p',   'p','p','E',   'E','p','w',   'w',
+            'w','w','p',   'p','E','E',   'E','E','p',   'p','E','E',   'E','E','w',   'w',
+            'w','w','p',   'p','e','e',   'E','E','p',   'p','e','e',   'E','E','w',   'w',
+        
+            'w','p','p',   'p','e','e',   'E','E','p',   'p','e','e',   'E','E','p',   'w',
+            'w','p','p',   'p','p','E',   'E','p','p',   'p','p','E',   'E','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+        
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+            'w','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'p','p','p',   'w',
+        
+            'w','p','p',   'p','p','w',   'p','p','p',   'p','w','p',   'p','p','p',   'w',
+            'w','w','p',   'p','w','w',   'w','p','p',   'w','w','w',   'p','p','w',   'w',
+            'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+        ) !default;
+        $c-pacman__positions: length($c-pacman__cells_pinky_2);
+
+
+
+   @mixin c-pacman__pixelart() {
+    @for $i from 1 through $c-pacman__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-pacman__colors, nth($c-pacman__cells, $i));
+      }
+    }
+  }
+
+  @mixin c-pacman__pixelart2() {
+    @for $i from 1 through $c-pacman__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-pacman__colors, nth($c-pacman__cells_01, $i));
+      }
+    }
+  }
+
+
+  @mixin c-pacman__pixelart3() {
+    @for $i from 1 through $c-pacman__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-pacman__colors, nth($c-pacman__cells_02, $i));
+      }
+    }
+  }
+
+  @mixin c-pacman__pixelart_pinky() {
+    @for $i from 1 through $c-pacman__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-pacman__colors, nth($c-pacman__cells_pinky, $i));
+      }
+    }
+  }
+
+  @mixin c-pacman__pixelart_pinky2() {
+    @for $i from 1 through $c-pacman__positions {
+      > div:nth-child(#{$i}) {
+        background: map-get($c-pacman__colors, nth($c-pacman__cells_pinky_2, $i));
+      }
+    }
+  }
+
+
+  
+  .aniBox {display: flex; align-items: center; justify-content: center;}
+
+  .mario {
+    transition: all 0.5s cubic-beziercubic-bezier(0.1, 0.7, 1.0, 0.1);
+    perspective: 600px;
+    position: absolute;
+  
+  }
+  
+  .mario div {
+    transition: all 1s cubic-beziercubic-bezier(0.1, 0.7, 1.0, 0.1);
+    ;
+    position: static;
+    width: 2px;
+    height: 2px;
+  }
+   
+ .c-pacman {
+    width: $c-pacman__width;
+    height: $c-pacman__height;
+    display: grid;
+    grid-template-columns: repeat($c-pacman__columns, 1fr);
+    grid-template-rows: repeat($c-pacman__rows, 1fr);
+    grid-column-gap: $c-pacman__gap;
+    grid-row-gap: $c-pacman__gap;  
+    @include c-pacman__pixelart();  
+  }
+  
+
+  .c-pacman.second {
+    width: $c-pacman__width;
+    height: $c-pacman__height;
+    display: grid;
+    grid-template-columns: repeat($c-pacman__columns, 1fr);
+    grid-template-rows: repeat($c-pacman__rows, 1fr);
+    grid-column-gap: $c-pacman__gap;
+    grid-row-gap: $c-pacman__gap;
+  
+    @include c-pacman__pixelart2();  
+  }
+
+  .c-pacman.third {
+    width: $c-pacman__width;
+    height: $c-pacman__height;
+    display: grid;
+    grid-template-columns: repeat($c-pacman__columns, 1fr);
+    grid-template-rows: repeat($c-pacman__rows, 1fr);
+    grid-column-gap: $c-pacman__gap;
+    grid-row-gap: $c-pacman__gap;
+  
+    @include c-pacman__pixelart3();  
+  }
+
+  .pinky {
+    width: $c-pacman__width;
+    height: $c-pacman__height;
+    display: grid;
+    grid-template-columns: repeat($c-pacman__columns, 1fr);
+    grid-template-rows: repeat($c-pacman__rows, 1fr);
+    grid-column-gap: $c-pacman__gap;
+    grid-row-gap: $c-pacman__gap;  
+    @include c-pacman__pixelart_pinky();  
+  }
+
+  .pinky.second {
+    width: $c-pacman__width;
+    height: $c-pacman__height;
+    display: grid;
+    grid-template-columns: repeat($c-pacman__columns, 1fr);
+    grid-template-rows: repeat($c-pacman__rows, 1fr);
+    grid-column-gap: $c-pacman__gap;
+    grid-row-gap: $c-pacman__gap;  
+    @include c-pacman__pixelart_pinky2();  
+  }
+  
+
+.pacman div {
+    transition: all 1s cubic-beziercubic-bezier(0.1, 0.7, 1.0, 0.1);;
+    position: static;
+    width: 2px;
+    height: 2px;
+  }
+  
+  .c-pacman div {
+    position: static;
+    width: 20px;
+    height: 20px;
+    transform: translate(-600px,0)
+  }
+
+  .pinky div {
+    position: static;
+    width: 20px;
+    height: 20px;
+  } 
+
+  .c-pacman.moveRight
+{
+    opacity: 0;
+    animation: right 4s linear infinite; animation-delay: 0.6s;
+  }
+  
+  .pinky.moveRight 
+  {
+    opacity: 0;
+    animation: right2 4s linear infinite; animation-delay: .7s;
+  }
+
+  @keyframes right2 {
+    10%{opacity: 1;}
+    
+    50.0% {opacity: 0.8;}
+    54.5% {opacity: 0.2;}
+    58.0% {opacity: 0.8;}
+    61.5% {opacity: 0.2;}
+    62.0% {opacity: 0.8;}
+    65.5% {opacity: 0.2;}
+    68.0% {opacity: 0.5; transform: translateX(300px) scale(0.7);}
+    70.5% {opacity: 0.6;}
+    73.0% {opacity: 0.4;}
+    75.5% {opacity: 0.2;}
+    90.0% {opacity: 0.1;}
+    to{transform: translateX(600px) scale(0.001); opacity: 0;}
+    
+  }
+
+
+
+
+  @keyframes right {
+  
+    5%{ opacity: 1;}
+
+  
+    80%{opacity: 1;}
+    to{transform: translateX(1200px); opacity: 1;}
+    
+  }
+
+
+
+
+  //  $c-pacman__cells : (
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+//     'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w','w','w',   'w',
+  
+//    ) !default;

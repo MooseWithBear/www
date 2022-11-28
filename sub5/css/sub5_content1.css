@@ -1,0 +1,5 @@
+#content h3{ position: relative; letter-spacing: 0.22em; font-size: 4.375em; font-family:'Titillium Web', sans-serif; text-align: center; font-weight: 100; padding-bottom: 70px; margin-bottom: 70px;}
+/* #content h3{border: none;} */
+#content p{font-size:1.1875em; line-height: 50px; letter-spacing: -0.02em; text-align: justify;}
+#content .inquiry p {font-size: 1.7rem; letter-spacing: 0.03rem;}
+#content .inquiry label {font-size: 1.2rem;}

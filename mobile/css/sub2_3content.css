@@ -1,0 +1,31 @@
+.visual {  position: relative; background:url(../images/sub1_visual.jpg) 30% 30% no-repeat; width: 100%; height: 12.5rem;}
+#content dl { border-radius: 0 0 .9375rem .9375rem;}
+#content dt { font-size: 1.25rem; font-weight: 400; text-align: center; letter-spacing: -0.03rem; padding: 1rem 0 1rem; }
+#content p{line-height: 1.875rem; font-size: 1rem ; text-align: justify;}
+#content dd {font-size: .875rem;line-height: 1.875rem;margin: 1%; text-align: justify; padding: 0 3%; padding-bottom: 1rem;}
+
+#content .csr .csrInner .csrTab.contentTab ul li {width: 33.3%;}
+#content .csr .csrInner .csrTab.contentTab ul li:first-child {border-right: .0625rem solid #f5f5f5;}
+#content .csr .csrInner .csrTab.contentTab ul li:last-child {border-left: .0625rem solid #f5f5f5;}
+
+#content .csr .csrInner .csrTab.contentTab ul li a {letter-spacing: -0.023rem;}
+#content .csr .contentBox {margin: 0 3.125%;}
+#content .csr .contentBox div {display: none;}
+
+#content .csr .contentBox div:nth-child(1) dl {background:rgba(24, 119, 242, 0.2)}
+#content .csr .contentBox div:nth-child(2) dl {background:rgba(12, 185, 199, 0.2)}
+#content .csr .contentBox div:nth-child(3) dl {background:rgba(255, 111, 64, 0.2)}
+
+#content .csr .csrTitle{font-size: 1.5rem; font-weight: 500; letter-spacing: -0.03rem; margin: 2rem 0 1rem;}
+#content .csr .csrText{ background: #f5f5f5; border-radius: .9375rem; padding: 5% 2%; line-height: 2.1875rem; margin-bottom: 5%; }
+
+#content .csr img{border-radius: .9375rem .9375rem 0 0; width: 100%; }
+#content .csr .content ul{}
+#content .csr .content ul li{margin-top: 5%;}
+#content .csr .content dl{}
+#content .csr .content dt{ }
+#content .csr .content dd{}
+
+
+
+
